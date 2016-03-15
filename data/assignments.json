@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": "201601271353765",
+      "attributes": {
+        "short": "AEM",
+        "long": "Adobe Experience Manager",
+        "background": "F9AFF8"
+      },
+      "type": "assignments"
+      },
+    {
+      "id": "201601271353764",
+      "attributes": {
+        "short": "EB3",
+        "long": "CIBC Migration Ph2",
+        "background": "99AFF8"
+      },
+      "type": "assignments"
+    }
+  ]
+}
