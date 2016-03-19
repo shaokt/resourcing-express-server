@@ -5,16 +5,25 @@
       "attributes": {
         "short": "AEM",
         "long": "Adobe Experience Manager",
-        "background": "F9AFF8"
+        "background": "f9af8a"
       },
       "type": "assignments"
-      },
+    },
     {
       "id": "201601271353764",
       "attributes": {
         "short": "EB3",
         "long": "CIBC Migration Ph2",
-        "background": "99AFF8"
+        "background": "99A"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph3",
+        "background": "899AFF"
       },
       "type": "assignments"
     }
