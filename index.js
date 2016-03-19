@@ -15,22 +15,41 @@ app.use(bodyParser.json({ type: 'application/*+json' }))
 var jsonParser = bodyParser.json()
 
 // support for employees
-app.get('/resources', function(req, res) { return app.getData('./data/resources.json', res); });
+app.get('/resources', function(req, res) { return app.getData(res, './data/resources.json'); });
+app.get('/resources/:id', function(req, res) { return app.getDataID(req, res, './data/resources.json') });
 app.patch('/resources/:id', jsonParser, function(req, res) { return app.patchData(req, res, './data/resources.json'); });
 app.post('/resources', jsonParser, function(req, res){ return app.postData(req, res, './data/resources.json'); });
 
 // support for assignments
-app.get('/assignments', function(req, res) { return app.getData('./data/assignments.json', res); });
+app.get('/assignments', function(req, res) { return app.getData(res, './data/assignments.json'); });
 app.patch('/assignments/:id', jsonParser, function(req, res) { return app.patchData(req, res, './data/assignments.json'); });
 app.post('/assignments', jsonParser, function(req, res){ return app.postData(req, res, './data/assignments.json'); });
 
-// load specified JSON file to get data
-app.getData = function(filePath, res) {
+// get data from specified JSON file
+app.getData = function(res, filePath) {
 	fs.readFile(filePath, function (err, data) {
 		if (err) {
 		   return console.error(err);
 		}
 		return res.json(JSON.parse(data.toString()));
+	});
+};
+
+// get data with specific ID from JSON file
+app.getDataID = function(req, res, filePath) {
+	var id = req.params.id;
+	fs.readFile(filePath, 'utf8', function (err, data) {
+		if (err) {
+		   return console.error(err);
+		}
+        var items = JSON.parse(data.toString());
+        for(item in items.data) {
+            if(id == items.data[item].id){
+                break;
+            }
+        }
+        // TODO:  if ID not found
+        res.json(items.data[item])
 	});
 };
 
@@ -56,7 +75,6 @@ app.patchData = function(req, res, filePath) {
 
         fs.writeFile (filePath, JSON.stringify(patches, null, 2), function(err) {
             if (err){
-                console.log('patch error: ' + error)
                 throw err;
                 res.sendStatus(400)
             }
@@ -82,22 +100,5 @@ app.postData = function(req, res, filePath) {
     });
 	res.json(req.body);
 };
-
-app.get('/resources/:id', function(req, res) {
-	var id = req.params.id;
-	fs.readFile('./data/resources.json', 'utf8', function (err, data) {
-		if (err) {
-		   return console.error(err);
-		}
-        var employees = JSON.parse(data.toString());
-        for(employee in employees.data) {
-            if(id == employees.data[employee].id){
-                break;
-            }
-        }
-        // TODO:  if employeeID not found
-        res.json(employees.data[employee])
-	});
-});
 
 app.listen(3000, function () { console.log('Example app listening on port 3000!'); })
