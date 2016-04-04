@@ -18,12 +18,112 @@
       },
       "type": "assignments"
     },
+
+    {
+      "id": "301601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph2",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "401601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph2",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "501601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph2",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "601601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph2",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "701601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph2",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "801601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph2",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "901601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph2",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "1001601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph2",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "1101601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph2",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "1201601271353763",
+      "attributes": {
+        "short": "EB4",
+        "long": "CIBC Migration Ph2",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
     {
       "id": "201601271353763",
       "attributes": {
         "short": "EB4",
         "long": "CIBC Migration Ph2",
         "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201601271353762",
+      "attributes": {
+        "short": "R25 OAO",
+        "long": "Omni Account Open",
+        "background": "ABC123"
       },
       "type": "assignments"
     }
