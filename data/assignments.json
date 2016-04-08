@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": "201601271353765",
+      "id": "2016048837980",
       "attributes": {
         "short": "AEM",
         "long": "Adobe Experience Manager",
@@ -10,7 +10,7 @@
       "type": "assignments"
     },
     {
-      "id": "201601271353764",
+      "id": "2016048842653",
       "attributes": {
         "short": "EB3",
         "long": "CIBC Migration Ph1",
@@ -19,16 +19,16 @@
       "type": "assignments"
     },
     {
-      "id": "301601271353763",
+      "id": "2016048843545",
       "attributes": {
         "short": "EB4",
-        "long": "CIBC Migration Ph2",
+        "long": "CiBC Migration Ph2",
         "background": "899AFF"
       },
       "type": "assignments"
     },
     {
-      "id": "401601271353763",
+      "id": "201604884392",
       "attributes": {
         "short": "EB5",
         "long": "PCF Parity",
@@ -37,7 +37,7 @@
       "type": "assignments"
     },
     {
-      "id": "501601271353763",
+      "id": "2016048844325",
       "attributes": {
         "short": "mQR",
         "long": "Mobile Quick Release",
@@ -46,7 +46,7 @@
       "type": "assignments"
     },
     {
-      "id": "601601271353763",
+      "id": "2016048844554",
       "attributes": {
         "short": "mPFM",
         "long": "Mobile PFM",
@@ -55,7 +55,7 @@
       "type": "assignments"
     },
     {
-      "id": "701601271353763",
+      "id": "2016048845398",
       "attributes": {
         "short": "R24",
         "long": "NDAO",
@@ -64,7 +64,7 @@
       "type": "assignments"
     },
     {
-      "id": "801601271353763",
+      "id": "2016048845352",
       "attributes": {
         "short": "R24.1a",
         "long": "Riptide / Aventura",
@@ -73,7 +73,7 @@
       "type": "assignments"
     },
     {
-      "id": "901601271353763",
+      "id": "2016048846981",
       "attributes": {
         "short": "R24.1b",
         "long": "Prepaid / Riptide CRs / CASL",
@@ -82,7 +82,7 @@
       "type": "assignments"
     },
     {
-      "id": "1001601271353763",
+      "id": "2016048846779",
       "attributes": {
         "short": "DSR",
         "long": "Digital Sales Requests",
@@ -91,7 +91,7 @@
       "type": "assignments"
     },
     {
-      "id": "201601271353762",
+      "id": "2016048847918",
       "attributes": {
         "short": "R25 OAO",
         "long": "Omni Account Open",
