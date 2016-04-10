@@ -3,6 +3,7 @@
     {
       "id": "2016048837980",
       "attributes": {
+        "hidden": true,
         "short": "AEM",
         "long": "Adobe Experience Manager",
         "background": "F9A"
@@ -12,6 +13,7 @@
     {
       "id": "2016048842653",
       "attributes": {
+        "hidden": false,
         "short": "EB3",
         "long": "CIBC Migration Ph1",
         "background": "99A"
@@ -21,6 +23,7 @@
     {
       "id": "2016048843545",
       "attributes": {
+        "hidden": false,
         "short": "EB4",
         "long": "CiBC Migration Ph2",
         "background": "899AFF"
@@ -30,6 +33,7 @@
     {
       "id": "201604884392",
       "attributes": {
+        "hidden": false,
         "short": "EB5",
         "long": "PCF Parity",
         "background": "899"
@@ -57,6 +61,7 @@
     {
       "id": "2016048845398",
       "attributes": {
+        "hidden": false,
         "short": "R24",
         "long": "NDAO",
         "background": "ABC123"
@@ -66,6 +71,7 @@
     {
       "id": "2016048845352",
       "attributes": {
+        "hidden": false,
         "short": "R24.1a",
         "long": "Riptide / Aventura",
         "background": "ABC890"
