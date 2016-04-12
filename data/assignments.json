@@ -43,6 +43,7 @@
     {
       "id": "2016048844325",
       "attributes": {
+        "hidden": false,
         "short": "mQR",
         "long": "Mobile Quick Release",
         "background": "AA7272"
