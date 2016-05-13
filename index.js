@@ -16,6 +16,18 @@ var jsonParser = bodyParser.json()
 
 // support for employees
 app.get('/resources', function(req, res) { return app.getData(res, './data/resources.json'); });
+
+// loading employees specific to each manager only
+app.get('/users/:manager', function(req, res) {
+    var manager = req.params.manager;
+    return app.getData(res, './data/' + manager + '.json');
+  });
+
+app.get('/users/:manager/:id', function(req, res) {
+    var manager = req.params.manager;
+    return app.getDataID(req, res, './data/' + manager + '.json');
+  });
+
 app.get('/resources/:id', function(req, res) { return app.getDataID(req, res, './data/resources.json') });
 app.patch('/resources/:id', jsonParser, function(req, res) { return app.patchData(req, res, './data/resources.json'); });
 app.post('/resources', jsonParser, function(req, res){ return app.postData(req, res, './data/resources.json'); });
