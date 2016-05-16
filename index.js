@@ -18,10 +18,16 @@ var jsonParser = bodyParser.json()
 app.get('/resources', function(req, res) { return app.getData(res, './data/resources.json'); });
 
 // loading employees specific to each manager only
+/*
 app.get('/users/:manager', function(req, res) {
     var manager = req.params.manager;
     return app.getData(res, './data/' + manager + '.json');
-  });
+});
+*/
+app.get('/users', function(req, res) {
+    var manager = req.query.manager;
+    return app.getData(res, './data/' + manager + '.json');
+});
 
 app.get('/users/:manager/:id', function(req, res) {
     var manager = req.params.manager;
