@@ -9,12 +9,21 @@
         "timeaway": ""
       },
       "type": "resources"
-  },
-
+    },
     {
       "id": "201601271353366",
       "attributes": {
         "name": "Julie N",
+        "hidden": false,
+        "assignment": "",
+        "timeaway": ""
+      },
+      "type": "resources"
+    },
+    {
+      "id": "201605201800726",
+      "attributes": {
+        "name": "Enter Name",
         "hidden": false,
         "assignment": "",
         "timeaway": ""
