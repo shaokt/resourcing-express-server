@@ -11,6 +11,7 @@
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
-    "json-api": "^2.15.7"
+    "json-api": "^2.15.7",
+    "mongoose": "^4.4.16"
   }
 }

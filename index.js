@@ -2,6 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser')
 var fs = require('fs');
 var app = express();
+var manager = '';
 
 app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
@@ -15,10 +16,26 @@ app.use(bodyParser.json({ type: 'application/*+json' }))
 var jsonParser = bodyParser.json()
 
 // support for employees
+
+// loading employees specific to each manager only
+app.get('/users', function(req, res) {
+    manager = req.query.manager;
+    return app.getData(res, './data/' + manager + '.json');
+});
+
+app.post('/users', jsonParser, function(req, res){ return app.postData(req, res, './data/' + manager + '.json'); });
+
+app.post('/resources', jsonParser, function(req, res){ return app.postData(req, res, './data/' + manager + '.json'); });
+
+
+// patch the specific employee in the current file
+app.patch('/resources/:id', jsonParser, function(req, res) { return app.patchData(req, res, './data/' + manager + '.json'); });
+
+/*
 app.get('/resources', function(req, res) { return app.getData(res, './data/resources.json'); });
 app.get('/resources/:id', function(req, res) { return app.getDataID(req, res, './data/resources.json') });
-app.patch('/resources/:id', jsonParser, function(req, res) { return app.patchData(req, res, './data/resources.json'); });
 app.post('/resources', jsonParser, function(req, res){ return app.postData(req, res, './data/resources.json'); });
+/**/
 
 // support for assignments
 app.get('/assignments', function(req, res) { return app.getData(res, './data/assignments.json'); });
