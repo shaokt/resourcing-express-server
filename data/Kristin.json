@@ -29,6 +29,16 @@
         "timeaway": ""
       },
       "type": "resources"
+    },
+    {
+      "id": "201605271926804",
+      "attributes": {
+        "name": "Enter Name",
+        "hidden": false,
+        "assignment": "",
+        "timeaway": ""
+      },
+      "type": "resources"
     }
   ]
 }
