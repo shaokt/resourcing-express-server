@@ -15,7 +15,22 @@ app.use(function(req, res, next) {
 app.use(bodyParser.json({ type: 'application/*+json' }))
 var jsonParser = bodyParser.json()
 
-// support for employees
+
+// check if file exists
+app.get('/file', function(req, res) { res.send(false) });
+
+app.get('/file/:manager', function(req, res) {
+	var exists = req.params.manager;
+
+    fs.access('./data/' + exists + '.json', fs.R_OK | fs.W_OK, (err) => {
+        res.send(err ? false : true);
+    });
+});
+
+app.get('/directs', function(req, res) {
+    manager = req.query.manager;
+    return app.getData(res, './data/' + manager + '.json');
+});
 
 // loading employees specific to each manager only
 app.get('/users', function(req, res) {
