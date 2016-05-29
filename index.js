@@ -27,6 +27,11 @@ app.get('/file/:manager', function(req, res) {
     });
 });
 
+app.get('/directs', function(req, res) {
+    manager = req.query.manager;
+    return app.getData(res, './data/' + manager + '.json');
+});
+
 // loading employees specific to each manager only
 app.get('/users', function(req, res) {
     manager = req.query.manager;
