@@ -105,6 +105,36 @@
         "background": "CBACBA"
       },
       "type": "assignments"
+    },
+    {
+      "id": "201606030923307",
+      "attributes": {
+        "hidden": false,
+        "short": "Dailies",
+        "long": "Dailies",
+        "background": "A0DA11"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201606030925627",
+      "attributes": {
+        "hidden": false,
+        "short": "DO",
+        "long": "Digital Optimization",
+        "background": "D00111"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201606030926147",
+      "attributes": {
+        "hidden": false,
+        "short": "",
+        "long": "",
+        "background": ""
+      },
+      "type": "assignments"
     }
   ]
 }
