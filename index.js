@@ -2,7 +2,8 @@ var express = require('express');
 var bodyParser = require('body-parser')
 var fs = require('fs');
 var app = express();
-var manager = '';
+var manager = ''; // the current file to edit
+var directs = ''; // if expanding an employee that has directs of their own
 
 app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
@@ -28,8 +29,8 @@ app.get('/file/:manager', function(req, res) {
 });
 
 app.get('/directs', function(req, res) {
-    manager = req.query.manager;
-    return app.getData(res, './data/' + manager + '.json');
+    directs = req.query.manager; // get name of the employee with their own directs
+    return app.getData(res, './data/' + directs + '.json');
 });
 
 // loading employees specific to each manager only
