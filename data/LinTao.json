@@ -1,0 +1,26 @@
+{
+  "data": [
+    {
+      "id": "201606030928323",
+      "attributes": {
+        "name": "Polkaroo",
+        "ad": "null",
+        "hidden": false,
+        "assignment": "",
+        "timeaway": ""
+      },
+      "type": "resources"
+    },
+    {
+      "id": "20160603092835",
+      "attributes": {
+        "name": "Enter Name",
+        "ad": null,
+        "hidden": false,
+        "assignment": "",
+        "timeaway": ""
+      },
+      "type": "resources"
+    }
+  ]
+}
