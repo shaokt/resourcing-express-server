@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "id": "201606030928323",
+      "attributes": {
+        "firstname": "Denise",
+        "lastname": "Digit",
+        "email": "dd@gmail.com",
+        "mobile": "911 911 9111",
+        "mailingaddress": "40 Dundas St. W"
+      },
+      "type": "profiles"
+    }
+  ]
+}

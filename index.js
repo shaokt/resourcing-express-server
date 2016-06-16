@@ -16,6 +16,12 @@ app.use(function(req, res, next) {
 app.use(bodyParser.json({ type: 'application/*+json' }))
 var jsonParser = bodyParser.json()
 
+app.get('/profiles', function(req, res) {
+    directs = req.query.manager; // get name of the employee with their own directs
+    return app.getData(res, './data/profile.json');
+});
+
+app.patch('/profiles/:id', jsonParser, function(req, res) { return app.patchData(req, res, './data/profile.json'); });
 
 // check if file exists
 app.get('/file', function(req, res) { res.send(false) });
