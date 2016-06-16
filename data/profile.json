@@ -7,7 +7,11 @@
         "lastname": "Digit",
         "email": "dd@gmail.com",
         "mobile": "911 911 9111",
-        "mailingaddress": "40 Dundas St. W"
+        "mailingaddress": "40 Dundas St. W",
+        "highlight": "#aabbcc",
+        "lowlight": "#ff9caa",
+        "dress": "rgb(255, 0, 0)",
+        "lipstick": "rgb(128, 0, 128)"
       },
       "type": "profiles"
     }
