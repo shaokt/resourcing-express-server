@@ -8,10 +8,11 @@
         "email": "dd@gmail.com",
         "mobile": "911 911 9111",
         "mailingaddress": "40 Dundas St. W",
-        "highlight": "#aabbcc",
-        "lowlight": "#ff9caa",
-        "dress": "rgb(255, 0, 0)",
-        "lipstick": "rgb(128, 0, 128)"
+        "highlight": "#b12800",
+        "lowlight": "#804208",
+        "dress": "#6666ff",
+        "lipstick": "#ff0000",
+        "necklace": "#80ff00"
       },
       "type": "profiles"
     }
