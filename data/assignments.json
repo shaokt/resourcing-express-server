@@ -6,6 +6,9 @@
         "hidden": false,
         "short": "AEM Ph1",
         "long": "Adobe Experience Manager",
+        "x": 0,
+        "w": 330,
+        "phases": null,
         "background": "F9A"
       },
       "type": "assignments"
@@ -16,6 +19,9 @@
         "hidden": false,
         "short": "AEM Ph2",
         "long": "Adobe Experience Manager",
+        "x": 195,
+        "w": 660,
+        "phases": null,
         "background": "E9D"
       },
       "type": "assignments"
@@ -26,6 +32,9 @@
         "hidden": false,
         "short": "EB3",
         "long": "CIBC Migration Ph1",
+        "x": 0,
+        "w": 1050,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"960\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"465\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"510\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"555\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"600\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"645\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"690\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"750\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"465\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"510\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"555\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"600\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"645\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"690\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"750\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"960\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"465\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"525\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"570\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"615\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></span>",
         "background": "99A"
       },
       "type": "assignments"
@@ -36,6 +45,9 @@
         "hidden": false,
         "short": "EB4",
         "long": "CiBC Migration Ph2",
+        "x": 915,
+        "w": 465,
+        "phases": null,
         "background": "899AFF"
       },
       "type": "assignments"
@@ -46,6 +58,9 @@
         "hidden": false,
         "short": "EB5",
         "long": "PCF Parity",
+        "x": 915,
+        "w": 465,
+        "phases": null,
         "background": "899"
       },
       "type": "assignments"
@@ -56,6 +71,9 @@
         "hidden": false,
         "short": "mQR",
         "long": "Mobile Quick Release",
+        "x": 270,
+        "w": 510,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"570\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"630\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"690\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"720\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"630\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"645\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"705\" data-y=\"45\"></span>",
         "background": "AA7272"
       },
       "type": "assignments"
@@ -86,6 +104,9 @@
         "hidden": false,
         "short": "R24.1a",
         "long": "Riptide / Aventura",
+        "x": null,
+        "w": null,
+        "phases": null,
         "background": "ABC890"
       },
       "type": "assignments"
@@ -96,6 +117,9 @@
         "hidden": false,
         "short": "R24.1b",
         "long": "Prepaid / Riptide CRs / CASL",
+        "x": 0,
+        "w": 915,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"840\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"735\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"UAT\" data-x=\"750\" data-y=\"15\"></span>",
         "background": "BCD567"
       },
       "type": "assignments"
@@ -106,6 +130,9 @@
         "hidden": false,
         "short": "DSR Ph1",
         "long": "Digital Sales Requests",
+        "x": 0,
+        "w": 465,
+        "phases": null,
         "background": "CBA123"
       },
       "type": "assignments"
@@ -114,8 +141,11 @@
       "id": "201606152004667",
       "attributes": {
         "hidden": false,
-        "short": "DSR Ph2",
-        "long": "Digital Sales Requests",
+        "short": "WRT1",
+        "long": "ReleaseTrain 1 : Digital Sales Requests + Marvel CEE",
+        "x": 390,
+        "w": 330,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"465\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"525\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"540\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"555\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"525\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"615\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"615\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"PRD\" data-x=\"645\" data-y=\"0\"></span>",
         "background": "C1BC88"
       },
       "type": "assignments"
@@ -126,7 +156,101 @@
         "hidden": false,
         "short": "R25 OAO",
         "long": "Omni Account Open",
+        "x": 0,
+        "w": 795,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"750\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"705\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"0\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"60\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"150\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"195\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"270\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"330\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"390\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"450\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"240\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"300\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"450\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"510\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"555\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"345\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"480\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"540\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"585\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"510\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"570\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"UAT\" data-x=\"615\" data-y=\"45\"></span>",
         "background": "CBACBA"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "20160807151538",
+      "attributes": {
+        "hidden": false,
+        "short": "DSDB",
+        "long": "Digital Safety Deposit Box",
+        "x": 570,
+        "w": 810,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"1155\" data-y=\"0\"></span>",
+        "background": "CACBBA"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071515916",
+      "attributes": {
+        "hidden": false,
+        "short": "ITC",
+        "long": "Integrated Tax Compliance",
+        "x": 570,
+        "w": 810,
+        "phases": null,
+        "background": "ABBCAC"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071516802",
+      "attributes": {
+        "hidden": false,
+        "short": "SK",
+        "long": "Secure Key",
+        "x": 525,
+        "w": 375,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"825\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"825\" data-y=\"30\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"855\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"675\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"705\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"765\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"FRZ\" data-x=\"795\" data-y=\"0\"></span>",
+        "background": "DFFDFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071606465",
+      "attributes": {
+        "hidden": false,
+        "short": "C2CM",
+        "long": "Click To Chat Migration",
+        "x": 330,
+        "w": 435,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\"data-phase=\"PRD\" data-x=\"660\" data-y=\"0\"></span>",
+        "background": "239BBB"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071645461",
+      "attributes": {
+        "hidden": false,
+        "short": "OSAB",
+        "long": "Online Sales Appointment Booking",
+        "x": 0,
+        "w": 780,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"555\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"330\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"UAT\" data-x=\"405\" data-y=\"0\"></span>",
+        "background": "404D00"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071655390",
+      "attributes": {
+        "hidden": false,
+        "short": "YP",
+        "long": "Youth Profile",
+        "x": 795,
+        "w": 375,
+        "phases": null,
+        "background": "827"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071658185",
+      "attributes": {
+        "hidden": false,
+        "short": "eCM",
+        "long": "eBanking Content Management : Admin App",
+        "x": 0,
+        "w": 1005,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\"data-phase=\"PRD\" data-x=\"960\" data-y=\"0\"></span>",
+        "background": "FDE123"
       },
       "type": "assignments"
     },
