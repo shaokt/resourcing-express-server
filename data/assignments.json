@@ -6,9 +6,6 @@
         "hidden": false,
         "short": "AEM Ph1",
         "long": "Adobe Experience Manager",
-        "x": 465,
-        "w": 225,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"660\" data-y=\"0\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"615\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"585\" data-y=\"15\" class=\"\"></span>",
         "background": "F9A"
       },
       "type": "assignments"
@@ -19,9 +16,6 @@
         "hidden": false,
         "short": "AEM Ph2",
         "long": "Adobe Experience Manager",
-        "x": 570,
-        "w": 45,
-        "phases": "",
         "background": "E9D"
       },
       "type": "assignments"
@@ -32,9 +26,6 @@
         "hidden": false,
         "short": "EB3",
         "long": "CIBC Migration Ph1",
-        "x": 480,
-        "w": 120,
-        "phases": "",
         "background": "99A"
       },
       "type": "assignments"
@@ -45,9 +36,6 @@
         "hidden": false,
         "short": "EB4",
         "long": "CiBC Migration Ph2",
-        "x": 0,
-        "w": 1380,
-        "phases": "",
         "background": "899AFF"
       },
       "type": "assignments"
@@ -68,7 +56,6 @@
         "hidden": false,
         "short": "mQR",
         "long": "Mobile Quick Release",
-        "phases": "",
         "background": "AA7272"
       },
       "type": "assignments"
@@ -89,9 +76,6 @@
         "hidden": false,
         "short": "R24",
         "long": "NDAO",
-        "x": 0,
-        "w": 795,
-        "phases": null,
         "background": "ABC123"
       },
       "type": "assignments"
@@ -112,7 +96,6 @@
         "hidden": false,
         "short": "R24.1b",
         "long": "Prepaid / Riptide CRs / CASL",
-        "phases": "",
         "background": "BCD567"
       },
       "type": "assignments"
