@@ -273,6 +273,19 @@
         "background": "D01888"
       },
       "type": "assignments"
+    },
+    {
+      "id": "201608080819786",
+      "attributes": {
+        "hidden": false,
+        "short": "mParity",
+        "long": "Mobile Parity",
+        "x": null,
+        "w": null,
+        "phases": null,
+        "background": "999DCC"
+      },
+      "type": "assignments"
     }
   ]
 }
