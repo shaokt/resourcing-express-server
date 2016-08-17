@@ -45,9 +45,9 @@
         "hidden": false,
         "short": "EB4",
         "long": "CiBC Migration Ph2",
-        "x": 915,
-        "w": 465,
-        "phases": null,
+        "x": 660,
+        "w": 570,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\"data-phase=\"PRD\" data-x=\"1125\" data-y=\"0\"></span>",
         "background": "899AFF"
       },
       "type": "assignments"
@@ -284,6 +284,32 @@
         "w": null,
         "phases": null,
         "background": "999DCC"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608171328362",
+      "attributes": {
+        "hidden": false,
+        "short": "PCF WAPP",
+        "long": "",
+        "x": 615,
+        "w": 285,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"675\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"810\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"840\" data-y=\"0\"></span>",
+        "background": "332392"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608171346689",
+      "attributes": {
+        "hidden": false,
+        "short": "ECCO",
+        "long": "Chat",
+        "x": 465,
+        "w": 915,
+        "phases": null,
+        "background": "398DFF"
       },
       "type": "assignments"
     }
