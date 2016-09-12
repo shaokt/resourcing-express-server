@@ -170,8 +170,8 @@
         "short": "DSDB",
         "long": "Digital Safety Deposit Box",
         "x": 570,
-        "w": 810,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"1155\" data-y=\"0\"></span>",
+        "w": 480,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"780\" data-y=\"0\"></span>",
         "background": "CACBBA"
       },
       "type": "assignments"
