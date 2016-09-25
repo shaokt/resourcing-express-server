@@ -141,12 +141,25 @@
       "id": "201606152004667",
       "attributes": {
         "hidden": false,
-        "short": "WRT1",
-        "long": "ReleaseTrain 1 : Digital Sales Requests + Marvel CEE",
+        "short": "DSR Ph2",
+        "long": "Digital Sales Requests 2",
         "x": 390,
         "w": 330,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"465\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"525\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"540\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"555\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"525\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"615\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"615\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"PRD\" data-x=\"645\" data-y=\"0\"></span>",
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"465\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"525\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"540\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"555\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"525\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"615\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"615\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"645\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"WTY\" data-x=\"660\" data-y=\"15\"></span>",
         "background": "C1BC88"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201609251842281",
+      "attributes": {
+        "hidden": false,
+        "short": "MCEE",
+        "long": "Marvel Credit Cards",
+        "x": 0,
+        "w": 390,
+        "phases": null,
+        "background": "009098"
       },
       "type": "assignments"
     },
@@ -170,8 +183,8 @@
         "short": "DSDB",
         "long": "Digital Safety Deposit Box",
         "x": 570,
-        "w": 480,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"780\" data-y=\"0\"></span>",
+        "w": 510,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"780\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"990\" data-y=\"0\"></span>",
         "background": "CACBBA"
       },
       "type": "assignments"
@@ -255,6 +268,58 @@
       "type": "assignments"
     },
     {
+      "id": "201608080819786",
+      "attributes": {
+        "hidden": false,
+        "short": "mParity",
+        "long": "Mobile Parity",
+        "x": 0,
+        "w": 135,
+        "phases": null,
+        "background": "999DCC"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608171328362",
+      "attributes": {
+        "hidden": false,
+        "short": "PCF WAPP",
+        "long": "Mortgage Calc + Pre-approval",
+        "x": 615,
+        "w": 285,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"675\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"810\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"840\" data-y=\"0\"></span>",
+        "background": "332392"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201609251829470",
+      "attributes": {
+        "hidden": false,
+        "short": "VMe",
+        "long": "Verify Me",
+        "x": 675,
+        "w": 135,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"675\" data-y=\"0\"></span>",
+        "background": "FD3E22"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608171346689",
+      "attributes": {
+        "hidden": false,
+        "short": "ECCO",
+        "long": "Chat",
+        "x": 465,
+        "w": 915,
+        "phases": null,
+        "background": "398DFF"
+      },
+      "type": "assignments"
+    },
+    {
       "id": "201606030923307",
       "attributes": {
         "hidden": false,
@@ -271,45 +336,6 @@
         "short": "DO",
         "long": "Digital Optimization",
         "background": "D01888"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608080819786",
-      "attributes": {
-        "hidden": false,
-        "short": "mParity",
-        "long": "Mobile Parity",
-        "x": null,
-        "w": null,
-        "phases": null,
-        "background": "999DCC"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608171328362",
-      "attributes": {
-        "hidden": false,
-        "short": "PCF WAPP",
-        "long": "",
-        "x": 615,
-        "w": 285,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"675\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"810\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"840\" data-y=\"0\"></span>",
-        "background": "332392"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608171346689",
-      "attributes": {
-        "hidden": false,
-        "short": "ECCO",
-        "long": "Chat",
-        "x": 465,
-        "w": 915,
-        "phases": null,
-        "background": "398DFF"
       },
       "type": "assignments"
     }
