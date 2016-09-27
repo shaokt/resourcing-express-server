@@ -183,8 +183,8 @@
         "short": "DSDB",
         "long": "Digital Safety Deposit Box",
         "x": 570,
-        "w": 510,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"780\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"990\" data-y=\"0\"></span>",
+        "w": 810,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"795\" data-y=\"0\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"975\" data-y=\"30\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"960\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"1080\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"1170\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"1305\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"1350\" data-y=\"0\"></span>",
         "background": "CACBBA"
       },
       "type": "assignments"
