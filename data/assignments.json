@@ -338,6 +338,19 @@
         "background": "D01888"
       },
       "type": "assignments"
+    },
+    {
+      "id": "201609270741658",
+      "attributes": {
+        "hidden": false,
+        "short": "BI",
+        "long": "Base Initiatives",
+        "x": null,
+        "w": null,
+        "phases": null,
+        "background": "FF9121"
+      },
+      "type": "assignments"
     }
   ]
 }
