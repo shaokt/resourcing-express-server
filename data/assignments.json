@@ -129,7 +129,7 @@
       "attributes": {
         "hidden": false,
         "short": "DSR Ph1",
-        "long": "Digital Sales Requests",
+        "long": "Digital Service Requests",
         "x": 0,
         "w": 465,
         "phases": null,
@@ -142,11 +142,24 @@
       "attributes": {
         "hidden": false,
         "short": "DSR Ph2",
-        "long": "Digital Sales Requests 2",
+        "long": "Digital Service Requests 2",
         "x": 390,
         "w": 330,
         "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"465\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"525\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"540\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"555\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"525\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"615\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"615\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"645\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"WTY\" data-x=\"660\" data-y=\"15\"></span>",
         "background": "C1BC88"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201610021141955",
+      "attributes": {
+        "hidden": false,
+        "short": "DSR Ph3",
+        "long": "Digital Service Requests 3",
+        "x": 660,
+        "w": 165,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"750\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"765\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></span>",
+        "background": "D54"
       },
       "type": "assignments"
     },
