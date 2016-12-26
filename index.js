@@ -4,6 +4,7 @@ var fs = require('fs');
 var app = express();
 var manager = ''; // the current file to edit
 var directs = ''; // if expanding an employee that has directs of their own
+var fileYear = ''; // the year/folder to open files from
 
 app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
@@ -16,69 +17,40 @@ app.use(function(req, res, next) {
 app.use(bodyParser.json({ type: 'application/*+json' }))
 var jsonParser = bodyParser.json()
 
-// get date
-app.get('/dates', function(req, res){
-    var date = new Date();
-    var result =
-    {   "data": [{
-            "id": "serverdate",
-            "attributes": {
-                year: date.getFullYear(),
-                month: date.getMonth(),
-                day: date.getDate()
-            },
-            "type": "dates"
-        }]
-    };
-
-    return res.json(JSON.parse(JSON.stringify(result, null, 2)));
-});
-
 // check if file exists
 app.get('/file', function(req, res) { res.send(false) });
 
 app.get('/file/:manager', function(req, res) {
 	var exists = req.params.manager;
 
-    fs.access('./data/' + exists + '.json', fs.R_OK | fs.W_OK, (err) => {
+    fs.access(`./data/${fileYear}/${exists}.json`, fs.R_OK | fs.W_OK, (err) => {
         res.send(err ? false : true);
     });
 });
 
 app.get('/directs', function(req, res) {
     directs = req.query.manager; // get name of the employee with their own directs
-    return app.getData(res, './data/' + directs + '.json');
+    return app.getData(res, `./data/${fileYear}/${directs}.json`);
 });
 
 // loading employees specific to each manager only
 app.get('/users', function(req, res) {
-    year = req.query.year;
+    fileYear  = req.query.year;
     manager = req.query.manager;
-    return app.getData(res, './data/' + year + "/" + manager + '.json');
+    return app.getData(res, `./data/${fileYear}/${manager}.json`);
 });
 
-app.post('/users', jsonParser, function(req, res){ return app.postData(req, res, './data/' + manager + '.json'); });
-
-app.post('/resources', jsonParser, function(req, res){ return app.postData(req, res, './data/' + manager + '.json'); });
-
-
-// patch the specific employee in the current file
-app.patch('/resources/:id', jsonParser, function(req, res) { return app.patchData(req, res, './data/' + manager + '.json'); });
-
-/*
-app.get('/resources', function(req, res) { return app.getData(res, './data/resources.json'); });
-app.get('/resources/:id', function(req, res) { return app.getDataID(req, res, './data/resources.json') });
-app.post('/resources', jsonParser, function(req, res){ return app.postData(req, res, './data/resources.json'); });
-/**/
+app.post('/users', jsonParser, function(req, res){ return app.postData(req, res, `./data/${fileYear}/${manager}.json`); });
+app.post('/resources', jsonParser, function(req, res){ return app.postData(req, res, `./data/${fileYear}/${manager}.json`); });
+app.patch('/resources/:id', jsonParser, function(req, res) { return app.patchData(req, res, `./data/${fileYear}/${manager}.json`); });
 
 // support for assignments
 app.get('/assignments', function(req, res) {
-    year = req.query.year;
-    console.log(year);
-    return app.getData(res, './data/' + year + '/assignments.json');
+    fileYear = req.query.year;
+    return app.getData(res, `./data/${fileYear}/assignments.json`);
 });
-app.patch('/assignments/:id', jsonParser, function(req, res) { return app.patchData(req, res, './data/assignments.json'); });
-app.post('/assignments', jsonParser, function(req, res){ return app.postData(req, res, './data/assignments.json'); });
+app.patch('/assignments/:id', jsonParser, function(req, res) { return app.patchData(req, res, `./data/${fileYear}/assignments.json`); });
+app.post('/assignments', jsonParser, function(req, res){ return app.postData(req, res, `./data/${fileYear}/assignments.json`); });
 
 // get data from specified JSON file
 app.getData = function(res, filePath) {
