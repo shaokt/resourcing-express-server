@@ -16,6 +16,23 @@ app.use(function(req, res, next) {
 app.use(bodyParser.json({ type: 'application/*+json' }))
 var jsonParser = bodyParser.json()
 
+// get date
+app.get('/dates', function(req, res){
+    var date = new Date();
+    var result =
+    {   "data": [{
+            "id": "serverdate",
+            "attributes": {
+                year: date.getFullYear(),
+                month: date.getMonth(),
+                day: date.getDate()
+            },
+            "type": "dates"
+        }]
+    };
+
+    return res.json(JSON.parse(JSON.stringify(result, null, 2)));
+});
 
 // check if file exists
 app.get('/file', function(req, res) { res.send(false) });
@@ -35,8 +52,9 @@ app.get('/directs', function(req, res) {
 
 // loading employees specific to each manager only
 app.get('/users', function(req, res) {
+    year = req.query.year;
     manager = req.query.manager;
-    return app.getData(res, './data/' + manager + '.json');
+    return app.getData(res, './data/' + year + "/" + manager + '.json');
 });
 
 app.post('/users', jsonParser, function(req, res){ return app.postData(req, res, './data/' + manager + '.json'); });
@@ -54,7 +72,11 @@ app.post('/resources', jsonParser, function(req, res){ return app.postData(req, 
 /**/
 
 // support for assignments
-app.get('/assignments', function(req, res) { return app.getData(res, './data/assignments.json'); });
+app.get('/assignments', function(req, res) {
+    year = req.query.year;
+    console.log(year);
+    return app.getData(res, './data/' + year + '/assignments.json');
+});
 app.patch('/assignments/:id', jsonParser, function(req, res) { return app.patchData(req, res, './data/assignments.json'); });
 app.post('/assignments', jsonParser, function(req, res){ return app.postData(req, res, './data/assignments.json'); });
 
@@ -62,7 +84,8 @@ app.post('/assignments', jsonParser, function(req, res){ return app.postData(req
 app.getData = function(res, filePath) {
 	fs.readFile(filePath, function (err, data) {
 		if (err) {
-		   return console.error(err);
+		   console.error(err);
+           return res.json(JSON.parse('{"data":[]}'))
 		}
 		return res.json(JSON.parse(data.toString()));
 	});
