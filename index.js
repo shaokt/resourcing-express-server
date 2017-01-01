@@ -28,6 +28,16 @@ app.get('/file/:manager', function(req, res) {
     });
 });
 
+
+app.get('/file/:year/:manager', function(req, res) {
+	var exists = req.params.manager;
+    var year = req.params.year;
+
+    fs.access(`./data/${year}/${exists}.json`, fs.R_OK | fs.W_OK, (err) => {
+        res.send(err ? false : true);
+    });
+});
+
 app.get('/directs', function(req, res) {
     directs = req.query.manager; // get name of the employee with their own directs
     return app.getData(res, `./data/${fileYear}/${directs}.json`);
