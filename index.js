@@ -28,14 +28,31 @@ app.get('/file/:manager', function(req, res) {
     });
 });
 
-
 app.get('/file/:year/:manager', function(req, res) {
 	var exists = req.params.manager;
     var year = req.params.year;
-
     fs.access(`./data/${year}/${exists}.json`, fs.R_OK | fs.W_OK, (err) => {
         res.send(err ? false : true);
     });
+});
+
+// create the specified filename
+app.get('/makefile/:year/:filename', function(req, res) {
+    var dir = `./data/${req.params.year}`;
+    var prevYear = parseInt(req.params.year)-1;
+    var filename = `${req.params.filename}.json`;
+
+    fs.existsSync(dir) || fs.mkdirSync(dir);
+    fs.open(`${dir}/${filename}`, 'w', (err, fd) => {
+        fs.readFile(`./data/${prevYear}/${filename}`, 'utf8', function (err, data) {
+            if (err) throw err;
+            var post = JSON.parse(data.toString());
+            fs.writeFile (`${dir}/${filename}`, JSON.stringify(post, null, 2), function(err) {
+                if (err) throw err;
+            });
+        });
+    });
+	res.send(true);
 });
 
 app.get('/directs', function(req, res) {
