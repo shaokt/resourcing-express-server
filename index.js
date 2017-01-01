@@ -48,11 +48,10 @@ app.get('/makefile/:year/:filename', function(req, res) {
             if (err) throw err;
             var post = JSON.parse(data.toString());
             fs.writeFile (`${dir}/${filename}`, JSON.stringify(post, null, 2), function(err) {
-                if (err) throw err;
+                res.send(err ? false : true);
             });
         });
     });
-	res.send(true);
 });
 
 app.get('/directs', function(req, res) {
