@@ -42,16 +42,10 @@ app.get('/makefile/:year/:filename', function(req, res) {
     var prevYear = parseInt(req.params.year)-1;
     var filename = `${req.params.filename}.json`;
 
-    fs.existsSync(dir) || fs.mkdirSync(dir);
-    fs.open(`${dir}/${filename}`, 'w', (err, fd) => {
-        fs.readFile(`./data/${prevYear}/${filename}`, 'utf8', function (err, data) {
-            if (err) throw err;
-            var post = JSON.parse(data.toString());
-            fs.writeFile (`${dir}/${filename}`, JSON.stringify(post, null, 2), function(err) {
-                res.send(err ? false : true);
-            });
-        });
-    });
+    try {
+        fs.writeFileSync(`${dir}/${filename}`, fs.readFileSync(`./data/${prevYear}/${filename}`, 'utf-8'));
+        res.send(true);
+    }catch(e){ res.send(false); }
 });
 
 app.get('/directs', function(req, res) {
