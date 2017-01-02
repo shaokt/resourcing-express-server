@@ -1,0 +1,363 @@
+{
+  "data": [
+    {
+      "id": "2016048837980",
+      "attributes": {
+        "hidden": false,
+        "short": "AEM Ph1",
+        "long": "Adobe Experience Manager",
+        "phases": "",
+        "background": "F9A"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201606151959434",
+      "attributes": {
+        "hidden": false,
+        "short": "AEM Ph2",
+        "long": "Adobe Experience Manager",
+        "x": 0,
+        "w": 165,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"90\" data-y=\"0\"></span>",
+        "background": "E9D"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2016048842653",
+      "attributes": {
+        "hidden": false,
+        "short": "EB3",
+        "long": "CIBC Migration Ph1",
+        "x": 0,
+        "w": 255,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"165\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"165\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"60\" data-y=\"0\"></span>",
+        "background": "99A"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2016048843545",
+      "attributes": {
+        "hidden": false,
+        "short": "EB4",
+        "long": "CiBC Migration Ph2",
+        "x": 120,
+        "w": 465,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"120\" data-y=\"0\"></span>",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201604884392",
+      "attributes": {
+        "hidden": false,
+        "short": "EB5",
+        "long": "PCF Parity",
+        "x": 120,
+        "w": 465,
+        "phases": "",
+        "background": "899"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2016048844325",
+      "attributes": {
+        "hidden": false,
+        "short": "mQR",
+        "long": "Mobile Quick Release",
+        "x": 0,
+        "w": 315,
+        "phases": "",
+        "background": "AA7272"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2016048844554",
+      "attributes": {
+        "hidden": false,
+        "short": "mPFM",
+        "long": "Mobile PFM",
+        "background": "DC9999",
+        "phases": ""
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2016048845398",
+      "attributes": {
+        "hidden": false,
+        "short": "R24",
+        "long": "NDAO",
+        "background": "ABC123",
+        "phases": ""
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2016048845352",
+      "attributes": {
+        "hidden": false,
+        "short": "R24.1a",
+        "long": "Riptide / Aventura",
+        "x": null,
+        "w": null,
+        "phases": "",
+        "background": "ABC890"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2016048846981",
+      "attributes": {
+        "hidden": false,
+        "short": "R24.1b",
+        "long": "Prepaid / Riptide CRs / CASL",
+        "x": 0,
+        "w": 120,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"45\" data-y=\"0\"></span>",
+        "background": "BCD567"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2016048846779",
+      "attributes": {
+        "hidden": false,
+        "short": "DSR Ph1",
+        "long": "Digital Service Requests",
+        "phases": "",
+        "background": "CBA123"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201606152004667",
+      "attributes": {
+        "hidden": false,
+        "short": "DSR Ph2",
+        "long": "Digital Service Requests 2",
+        "phases": "",
+        "background": "C1BC88"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201610021141955",
+      "attributes": {
+        "hidden": false,
+        "short": "DSR Ph3",
+        "long": "Digital Service Requests 3",
+        "x": 0,
+        "w": 105,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"15\" data-y=\"0\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"30\" data-y=\"15\"></span>",
+        "background": "D54"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201609251842281",
+      "attributes": {
+        "hidden": false,
+        "short": "MCEE",
+        "long": "Marvel Credit Cards",
+        "phases": "",
+        "background": "009098"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2016048847918",
+      "attributes": {
+        "hidden": false,
+        "short": "R25 OAO",
+        "long": "Omni Account Open",
+        "x": 0,
+        "w": 120,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"30\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"45\" data-y=\"15\"></span>",
+        "background": "CBACBA"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "20160807151538",
+      "attributes": {
+        "hidden": false,
+        "short": "DSDB",
+        "long": "Digital Safety Deposit Box",
+        "x": 0,
+        "w": 585,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"60\" data-y=\"0\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"180\" data-y=\"30\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"165\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"285\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"375\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"510\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"555\" data-y=\"0\"></span>",
+        "background": "CACBBA"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071515916",
+      "attributes": {
+        "hidden": false,
+        "short": "ITC",
+        "long": "Integrated Tax Compliance",
+        "x": 0,
+        "w": 585,
+        "phases": "",
+        "background": "ABBCAC"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071516802",
+      "attributes": {
+        "hidden": false,
+        "short": "SK",
+        "long": "Secure Key",
+        "x": 0,
+        "w": 105,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"30\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"30\" data-y=\"30\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"60\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"FRZ\" data-x=\"0\" data-y=\"0\"></span>",
+        "background": "DFFDFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071606465",
+      "attributes": {
+        "hidden": false,
+        "short": "C2CM",
+        "long": "Click To Chat Migration",
+        "x": 0,
+        "w": 60,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"0\" data-y=\"0\" class=\"\"></span>",
+        "background": "239BBB"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071645461",
+      "attributes": {
+        "hidden": false,
+        "short": "OSAB",
+        "long": "Online Sales Appointment Booking",
+        "x": 0,
+        "w": 30,
+        "phases": "",
+        "background": "404D00"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071655390",
+      "attributes": {
+        "hidden": false,
+        "short": "YP",
+        "long": "Youth Profile",
+        "x": 0,
+        "w": 375,
+        "phases": "",
+        "background": "827"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608071658185",
+      "attributes": {
+        "hidden": false,
+        "short": "eCM",
+        "long": "eBanking Content Management : Admin App",
+        "x": 0,
+        "w": 210,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"165\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"45\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"15\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"75\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"120\" data-y=\"0\"></span>",
+        "background": "FDE123"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608080819786",
+      "attributes": {
+        "hidden": false,
+        "short": "mParity",
+        "long": "Mobile Parity",
+        "phases": "",
+        "background": "999DCC"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608171328362",
+      "attributes": {
+        "hidden": false,
+        "short": "PCF WAPP",
+        "long": "Mortgage Calc + Pre-approval",
+        "x": 0,
+        "w": 105,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"15\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"45\" data-y=\"0\"></span>",
+        "background": "332392"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201609251829470",
+      "attributes": {
+        "hidden": false,
+        "short": "VMe",
+        "long": "Verify Me",
+        "x": 0,
+        "w": 120,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"15\" data-y=\"0\"></span>",
+        "background": "FD3E22"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201608171346689",
+      "attributes": {
+        "hidden": false,
+        "short": "ECCO",
+        "long": "Chat",
+        "x": 0,
+        "w": 585,
+        "phases": "",
+        "background": "398DFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201606030923307",
+      "attributes": {
+        "hidden": false,
+        "short": "Dailies",
+        "long": "Dailies",
+        "background": "A0DA11",
+        "phases": ""
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201606030925627",
+      "attributes": {
+        "hidden": false,
+        "short": "DO",
+        "long": "Digital Optimization",
+        "background": "D01888",
+        "phases": ""
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201609270741658",
+      "attributes": {
+        "hidden": false,
+        "short": "BI",
+        "long": "Base Initiatives",
+        "x": null,
+        "w": null,
+        "phases": "",
+        "background": "FF9121"
+      },
+      "type": "assignments"
+    }
+  ]
+}
