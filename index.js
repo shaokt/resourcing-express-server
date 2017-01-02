@@ -6,6 +6,11 @@ var manager = ''; // the current file to edit
 var directs = ''; // if expanding an employee that has directs of their own
 var fileYear = ''; // the year/folder to open files from
 
+// jQuery setup to manipulate DOM-like elements
+var jsdom = require('jsdom'),
+    window = jsdom.jsdom().defaultView,
+    $ = require("jquery")(jsdom.jsdom().defaultView);
+
 app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
     res.header('Content-Type', 'text/plain');
@@ -37,16 +42,47 @@ app.get('/file/:year/:manager', function(req, res) {
 });
 
 // create the specified filename
-app.get('/makefile/:year/:filename', function(req, res) {
+app.get('/makefile/:year/:q1Weekly/:q1Daily/:filename', function(req, res) {
     var dir = `./data/${req.params.year}`;
     var prevYear = parseInt(req.params.year)-1;
     var filename = `${req.params.filename}.json`;
 
-    try {
-        fs.writeFileSync(`${dir}/${filename}`, fs.readFileSync(`./data/${prevYear}/${filename}`, 'utf-8'));
-        res.send(true);
-    }catch(e){ res.send(false); }
+    fs.existsSync(dir) || fs.mkdirSync(dir); // make directory if it doesn't exist
+    fs.open(`${dir}/${filename}`, 'w', (err, fd) => {
+        fs.readFile(`./data/${prevYear}/${filename}`, 'utf8', function (err, data) {
+            if (err) throw err;
+            var items = JSON.parse(data.toString());
+
+            for(item in items.data){
+                // update the column for assignments
+                $(items.data)[item].attributes.assignment = app.dataX($(items.data[item].attributes.assignment), req.params.q1Weekly);
+
+                // update the column for outOfOffice
+                $(items.data)[item].attributes.timeaway = app.dataX($(items.data[item].attributes.timeaway), req.params.q1Daily);
+            }
+
+            fs.writeFile (`${dir}/${filename}`, JSON.stringify(items , null, 2), function(err) {
+                res.send(err ? false : true);
+            });
+        });
+    });
 });
+
+// update the column values when exporting to next year
+app.dataX= (obj, value)=>{
+    var result = "";
+    for(var i=0; i<obj.length; i++){
+        var x = parseInt($(obj[i]).attr('data-x'));
+        if(x < value) {
+            delete $(obj[i]);
+        }
+        else{
+            $(obj[i]).attr('data-x', x - value);
+            result += $(obj[i])[0].outerHTML;
+        }
+    }
+    return result;
+};
 
 app.get('/directs', function(req, res) {
     directs = req.query.manager; // get name of the employee with their own directs
