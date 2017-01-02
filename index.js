@@ -53,12 +53,15 @@ app.get('/makefile/:year/:q1Weekly/:q1Daily/:filename', function(req, res) {
             if (err) throw err;
             var items = JSON.parse(data.toString());
 
-            for(item in items.data){
-                // update the column for assignments
-                $(items.data)[item].attributes.assignment = app.dataX($(items.data[item].attributes.assignment), req.params.q1Weekly);
-
-                // update the column for outOfOffice
-                $(items.data)[item].attributes.timeaway = app.dataX($(items.data[item].attributes.timeaway), req.params.q1Daily);
+            if(filename.match(/^assignments\.json/gi)){
+                app.exportRoadmap(items, req.params.q1Weekly);
+            }
+            else{ // exporting manager files
+                for(item in items.data){
+                    // update the column values for assignments & outOfOffice tiles
+                    $(items.data)[item].attributes.assignment = app.dataX($(items.data[item].attributes.assignment), req.params.q1Weekly);
+                    $(items.data)[item].attributes.timeaway = app.dataX($(items.data[item].attributes.timeaway), req.params.q1Daily);
+                }
             }
 
             fs.writeFile (`${dir}/${filename}`, JSON.stringify(items , null, 2), function(err) {
@@ -68,8 +71,36 @@ app.get('/makefile/:year/:q1Weekly/:q1Daily/:filename', function(req, res) {
     });
 });
 
+// update roadmap assignment properties when exporting to next year
+app.exportRoadmap = (obj, q1)=> {
+    for(item in obj.data){
+        // update the column value for phase stamps
+        $(obj.data)[item].attributes.phases = app.dataX($(obj.data[item].attributes.phases), q1);
+
+        var start = $(obj.data)[item].attributes.x;
+        var width = $(obj.data)[item].attributes.w;
+        var end = width+start-15; // -15 to account for calendar columns starting at 0
+
+        if(start || width){ // if the project has any defined length of time mapped out
+            if(start > q1){ // assignment start is after Q1 of next year
+                var newX = start - q1;
+                $(obj.data)[item].attributes.x = newX;
+            }
+            else if(end > q1){ // assigment start is before Q1 of next year and goes beyond
+                var diff = end - q1 + 15;
+                $(obj.data)[item].attributes.x = 0;
+                $(obj.data)[item].attributes.w = diff;
+            }
+            else { // project ended before Q1 of next year
+                delete $(obj.data)[item].attributes.x;
+                delete $(obj.data)[item].attributes.w;
+            }
+        }
+    }
+};
+
 // update the column values when exporting to next year
-app.dataX= (obj, value)=>{
+app.dataX = (obj, value)=>{
     var result = "";
     for(var i=0; i<obj.length; i++){
         var x = parseInt($(obj[i]).attr('data-x'));
