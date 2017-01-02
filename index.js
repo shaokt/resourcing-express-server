@@ -33,8 +33,8 @@ app.get('/file/:manager', function(req, res) {
     });
 });
 
-app.get('/file/:year/:manager', function(req, res) {
-	var exists = req.params.manager;
+app.get('/file/:year/:filename', function(req, res) {
+	var exists = req.params.filename;
     var year = req.params.year;
     fs.access(`./data/${year}/${exists}.json`, fs.R_OK | fs.W_OK, (err) => {
         res.send(err ? false : true);
