@@ -41,6 +41,10 @@ app.get('/file/:year/:filename', function(req, res) {
     });
 });
 
+app.get('/exists/:year/:filename', (req, res)=>{
+    res.send(fs.existsSync(`./data/${req.params.year}/${req.params.filename}.json`));
+});
+
 // create the specified filename
 app.get('/makefile/:year/:q1Weekly/:q1Daily/:filename', function(req, res) {
     var dir = `./data/${req.params.year}`;
