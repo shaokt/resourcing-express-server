@@ -133,7 +133,9 @@ app.get('/users', function(req, res) {
 
 app.post('/users', jsonParser, function(req, res){ return app.postData(req, res, `./data/${fileYear}/${manager}.json`); });
 app.post('/resources', jsonParser, function(req, res){ return app.postData(req, res, `./data/${fileYear}/${manager}.json`); });
-app.patch('/resources/:id', jsonParser, function(req, res) { return app.patchData(req, res, `./data/${fileYear}/${manager}.json`); });
+app.patch('/resources/:id/:year/:filename', jsonParser, function(req, res) {
+    return app.patchData(req, res, `./data/${req.params.year}/${req.params.filename}.json`);
+});
 
 // support for assignments
 app.get('/assignments', function(req, res) {
