@@ -102,12 +102,12 @@ app.get('/directs', function(req, res) { return app.getData(res, `./data/${req.q
 
 // loading employees specific to each manager only
 app.get('/users', function(req, res) { return app.getData(res, `./data/${req.query.year}/${req.query.manager}.json`); });
-app.post('/users', jsonParser, function(req, res){ return app.postData(req, res, `./data/${req.params.year}/${req.params.manager}.json`); });
 
+// update/create employees in manager files
 app.patch('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `./data/${req.params.year}/${req.params.filename}.json`); });
 app.post('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.postData(req, res, `./data/${req.params.year}/${req.params.filename}.json`); });
 
-// support for assignments
+// update/create assignments in the roadmap
 app.get('/assignments', function(req, res) { return app.getData(res, `./data/${req.query.year}/assignments.json`); });
 app.patch('/assignments/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `./data/${req.params.year}/assignments.json`); });
 app.post('/assignments/:id/:year/:filename', jsonParser, function(req, res){ return app.postData(req, res, `./data/${req.params.year}/assignments.json`); });
