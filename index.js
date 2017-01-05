@@ -2,6 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser')
 var fs = require('fs');
 var app = express();
+var path = './data';
 
 // jQuery setup to manipulate DOM-like elements
 var jsdom = require('jsdom'),
@@ -19,20 +20,15 @@ app.use(function(req, res, next) {
 app.use(bodyParser.json({ type: 'application/*+json' }))
 var jsonParser = bodyParser.json()
 
-// check if file exists
-app.get('/exists/:year/:filename', (req, res)=>{
-    res.send(fs.existsSync(`./data/${req.params.year}/${req.params.filename}.json`));
-});
-
 // create the specified filename
 app.get('/makefile/:year/:q1Weekly/:q1Daily/:filename', function(req, res) {
-    var dir = `./data/${req.params.year}`;
+    var dir = `${path}/${req.params.year}`;
     var prevYear = parseInt(req.params.year)-1;
     var filename = `${req.params.filename}.json`;
 
     fs.existsSync(dir) || fs.mkdirSync(dir); // make directory if it doesn't exist
     fs.open(`${dir}/${filename}`, 'w', (err, fd) => {
-        fs.readFile(`./data/${prevYear}/${filename}`, 'utf8', function (err, data) {
+        fs.readFile(`${path}/${prevYear}/${filename}`, 'utf8', function (err, data) {
             if (err) throw err;
             var items = JSON.parse(data.toString());
 
@@ -98,19 +94,20 @@ app.dataX = (obj, value)=>{
     return result;
 };
 
-app.get('/directs', function(req, res) { return app.getData(res, `./data/${req.query.year}/${req.query.manager}.json`); });
+// check if file exists
+app.get('/exists/:year/:filename', (req, res)=>{ res.send(fs.existsSync(`${path}/${req.params.year}/${req.params.filename}.json`)); });
 
 // loading employees specific to each manager only
-app.get('/users', function(req, res) { return app.getData(res, `./data/${req.query.year}/${req.query.manager}.json`); });
+app.get('/users', function(req, res) { return app.getData(res, `${path}/${req.query.year}/${req.query.manager}.json`); });
 
 // update/create employees in manager files
-app.patch('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `./data/${req.params.year}/${req.params.filename}.json`); });
-app.post('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.postData(req, res, `./data/${req.params.year}/${req.params.filename}.json`); });
+app.patch('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `${path}/${req.params.year}/${req.params.filename}.json`); });
+app.post('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.postData(req, res, `${path}/${req.params.year}/${req.params.filename}.json`); });
 
 // update/create assignments in the roadmap
-app.get('/assignments', function(req, res) { return app.getData(res, `./data/${req.query.year}/assignments.json`); });
-app.patch('/assignments/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `./data/${req.params.year}/assignments.json`); });
-app.post('/assignments/:id/:year/:filename', jsonParser, function(req, res){ return app.postData(req, res, `./data/${req.params.year}/assignments.json`); });
+app.get('/assignments', function(req, res) { return app.getData(res, `${path}/${req.query.year}/assignments.json`); });
+app.patch('/assignments/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `${path}/${req.params.year}/assignments.json`); });
+app.post('/assignments/:id/:year/:filename', jsonParser, function(req, res){ return app.postData(req, res, `${path}/${req.params.year}/assignments.json`); });
 
 // get data from specified JSON file
 app.getData = function(res, filePath) {
@@ -120,24 +117,6 @@ app.getData = function(res, filePath) {
            return res.json(JSON.parse('{"data":[]}'))
 		}
 		return res.json(JSON.parse(data.toString()));
-	});
-};
-
-// get data with specific ID from JSON file
-app.getDataID = function(req, res, filePath) {
-	var id = req.params.id;
-	fs.readFile(filePath, 'utf8', function (err, data) {
-		if (err) {
-		   return console.error(err);
-		}
-        var items = JSON.parse(data.toString());
-        for(item in items.data) {
-            if(id == items.data[item].id){
-                break;
-            }
-        }
-        // TODO:  if ID not found
-        res.json(items.data[item])
 	});
 };
 
@@ -188,5 +167,23 @@ app.postData = function(req, res, filePath) {
     });
 	res.json(req.body);
 };
+
+/* this isn't used?
+// get data with specific ID from JSON file
+app.getDataID = function(req, res, filePath) {
+	var id = req.params.id;
+	fs.readFile(filePath, 'utf8', function (err, data) {
+		if (err) {
+		   return console.error(err);
+		}
+        var items = JSON.parse(data.toString());
+        for(item in items.data) {
+            if(id == items.data[item].id){ break; }
+        }
+        // TODO:  if ID not found
+        res.json(items.data[item])
+	});
+};
+*/
 
 app.listen(3000, function () { console.log('Example app listening on port 3000!'); })
