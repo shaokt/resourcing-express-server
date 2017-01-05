@@ -2,9 +2,6 @@ var express = require('express');
 var bodyParser = require('body-parser')
 var fs = require('fs');
 var app = express();
-var manager = ''; // the current file to edit
-var directs = ''; // if expanding an employee that has directs of their own
-var fileYear = ''; // the year/folder to open files from
 
 // jQuery setup to manipulate DOM-like elements
 var jsdom = require('jsdom'),
@@ -23,24 +20,6 @@ app.use(bodyParser.json({ type: 'application/*+json' }))
 var jsonParser = bodyParser.json()
 
 // check if file exists
-app.get('/file', function(req, res) { res.send(false) });
-
-app.get('/file/:manager', function(req, res) {
-	var exists = req.params.manager;
-
-    fs.access(`./data/${fileYear}/${exists}.json`, fs.R_OK | fs.W_OK, (err) => {
-        res.send(err ? false : true);
-    });
-});
-
-app.get('/file/:year/:filename', function(req, res) {
-	var exists = req.params.filename;
-    var year = req.params.year;
-    fs.access(`./data/${year}/${exists}.json`, fs.R_OK | fs.W_OK, (err) => {
-        res.send(err ? false : true);
-    });
-});
-
 app.get('/exists/:year/:filename', (req, res)=>{
     res.send(fs.existsSync(`./data/${req.params.year}/${req.params.filename}.json`));
 });
@@ -119,31 +98,19 @@ app.dataX = (obj, value)=>{
     return result;
 };
 
-app.get('/directs', function(req, res) {
-    directs = req.query.manager; // get name of the employee with their own directs
-    return app.getData(res, `./data/${fileYear}/${directs}.json`);
-});
+app.get('/directs', function(req, res) { return app.getData(res, `./data/${req.query.year}/${req.query.manager}.json`); });
 
 // loading employees specific to each manager only
-app.get('/users', function(req, res) {
-    fileYear  = req.query.year;
-    manager = req.query.manager;
-    return app.getData(res, `./data/${fileYear}/${manager}.json`);
-});
+app.get('/users', function(req, res) { return app.getData(res, `./data/${req.query.year}/${req.query.manager}.json`); });
+app.post('/users', jsonParser, function(req, res){ return app.postData(req, res, `./data/${req.params.year}/${req.params.manager}.json`); });
 
-app.post('/users', jsonParser, function(req, res){ return app.postData(req, res, `./data/${fileYear}/${manager}.json`); });
-app.post('/resources', jsonParser, function(req, res){ return app.postData(req, res, `./data/${fileYear}/${manager}.json`); });
-app.patch('/resources/:id/:year/:filename', jsonParser, function(req, res) {
-    return app.patchData(req, res, `./data/${req.params.year}/${req.params.filename}.json`);
-});
+app.patch('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `./data/${req.params.year}/${req.params.filename}.json`); });
+app.post('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.postData(req, res, `./data/${req.params.year}/${req.params.filename}.json`); });
 
 // support for assignments
-app.get('/assignments', function(req, res) {
-    fileYear = req.query.year;
-    return app.getData(res, `./data/${fileYear}/assignments.json`);
-});
-app.patch('/assignments/:id', jsonParser, function(req, res) { return app.patchData(req, res, `./data/${fileYear}/assignments.json`); });
-app.post('/assignments', jsonParser, function(req, res){ return app.postData(req, res, `./data/${fileYear}/assignments.json`); });
+app.get('/assignments', function(req, res) { return app.getData(res, `./data/${req.query.year}/assignments.json`); });
+app.patch('/assignments/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `./data/${req.params.year}/assignments.json`); });
+app.post('/assignments/:id/:year/:filename', jsonParser, function(req, res){ return app.postData(req, res, `./data/${req.params.year}/assignments.json`); });
 
 // get data from specified JSON file
 app.getData = function(res, filePath) {
