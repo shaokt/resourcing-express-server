@@ -3,9 +3,11 @@
     {
       "id": "2016048837980",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "AEM Ph1",
         "long": "Adobe Experience Manager",
+        "x": null,
+        "w": null,
         "phases": "",
         "background": "F9A"
       },
@@ -64,6 +66,32 @@
       "type": "assignments"
     },
     {
+      "id": "201701061345380",
+      "attributes": {
+        "hidden": false,
+        "short": "P2P 1",
+        "long": "Send/Respond to Money Request",
+        "x": 45,
+        "w": 570,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"300\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"360\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"495\" data-y=\"30\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"FRZ\" data-x=\"480\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"540\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"540\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"45\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"135\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"SPR\" data-x=\"180\" data-y=\"0\"></span>",
+        "background": "CF92F0"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201701061342358",
+      "attributes": {
+        "hidden": false,
+        "short": "RTCCT",
+        "long": "Real Time Credit Card Txn",
+        "x": 0,
+        "w": 675,
+        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"255\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"315\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"120\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"FRZ\" data-x=\"510\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"555\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"555\" data-y=\"30\"></span>",
+        "background": "D1E100"
+      },
+      "type": "assignments"
+    },
+    {
       "id": "2016048844325",
       "attributes": {
         "hidden": false,
@@ -79,29 +107,33 @@
     {
       "id": "2016048844554",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "mPFM",
         "long": "Mobile PFM",
-        "background": "DC9999",
-        "phases": ""
+        "x": null,
+        "w": null,
+        "phases": "",
+        "background": "DC9999"
       },
       "type": "assignments"
     },
     {
       "id": "2016048845398",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "R24",
         "long": "NDAO",
-        "background": "ABC123",
-        "phases": ""
+        "x": null,
+        "w": null,
+        "phases": "",
+        "background": "ABC123"
       },
       "type": "assignments"
     },
     {
       "id": "2016048845352",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "R24.1a",
         "long": "Riptide / Aventura",
         "x": null,
@@ -127,9 +159,11 @@
     {
       "id": "2016048846779",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "DSR Ph1",
         "long": "Digital Service Requests",
+        "x": null,
+        "w": null,
         "phases": "",
         "background": "CBA123"
       },
@@ -138,9 +172,11 @@
     {
       "id": "201606152004667",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "DSR Ph2",
         "long": "Digital Service Requests 2",
+        "x": null,
+        "w": null,
         "phases": "",
         "background": "C1BC88"
       },
@@ -162,9 +198,11 @@
     {
       "id": "201609251842281",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "MCEE",
         "long": "Marvel Credit Cards",
+        "x": null,
+        "w": null,
         "phases": "",
         "background": "009098"
       },
@@ -251,7 +289,7 @@
     {
       "id": "201608071655390",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "YP",
         "long": "Youth Profile",
         "x": 0,
@@ -268,7 +306,7 @@
         "short": "eCM",
         "long": "eBanking Content Management : Admin App",
         "x": 0,
-        "w": 210,
+        "w": 255,
         "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"165\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"45\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"15\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"75\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"120\" data-y=\"0\"></span>",
         "background": "FDE123"
       },
@@ -277,9 +315,11 @@
     {
       "id": "201608080819786",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "mParity",
         "long": "Mobile Parity",
+        "x": null,
+        "w": null,
         "phases": "",
         "background": "999DCC"
       },
@@ -338,11 +378,13 @@
     {
       "id": "201606030925627",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "DO",
         "long": "Digital Optimization",
-        "background": "D01888",
-        "phases": ""
+        "x": null,
+        "w": null,
+        "phases": "",
+        "background": "D01888"
       },
       "type": "assignments"
     },
