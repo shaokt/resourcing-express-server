@@ -105,7 +105,7 @@ app.patch('/resources/:id/:year/:filename', jsonParser, function(req, res) { ret
 app.post('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.postData(req, res, `${path}/${req.params.year}/${req.params.filename}.json`); });
 
 // swap order of data based on index passed in
-app.patch('/resources/swap/:year/:filename/:from/:to', function(req, res) {
+app.patch('/resources/swap/:year/:from/:to/:filename', function(req, res) {
     return app.swapData(req, res, `${path}/${req.params.year}/${req.params.filename}.json`);
 });
 
@@ -113,6 +113,11 @@ app.patch('/resources/swap/:year/:filename/:from/:to', function(req, res) {
 app.get('/assignments', function(req, res) { return app.getData(res, `${path}/${req.query.year}/assignments.json`); });
 app.patch('/assignments/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `${path}/${req.params.year}/assignments.json`); });
 app.post('/assignments/:id/:year/:filename', jsonParser, function(req, res){ return app.postData(req, res, `${path}/${req.params.year}/assignments.json`); });
+
+// swap order of data based on index passed in
+app.patch('/assignments/swap/:year/:from/:to/:filename', function(req, res) {
+    return app.swapData(req, res, `${path}/${req.params.year}/assignments.json`);
+});
 
 // swap order of data based on index passed in
 app.swapData = function(req, res, filePath){
