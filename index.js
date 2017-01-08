@@ -100,9 +100,10 @@ app.get('/exists/:year/:filename', (req, res)=>{ res.send(fs.existsSync(`${path}
 // loading employees specific to each manager only
 app.get('/users', function(req, res) { return app.getData(res, `${path}/${req.query.year}/${req.query.manager}.json`); });
 
-// update/create employees in manager files
+// update/create/delete employees in manager files
 app.patch('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `${path}/${req.params.year}/${req.params.filename}.json`); });
 app.post('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.postData(req, res, `${path}/${req.params.year}/${req.params.filename}.json`); });
+app.delete('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.deleteData(req, res, `${path}/${req.params.year}/${req.params.filename}.json`); });
 
 // swap order of data based on index passed in
 app.patch('/resources/swap/:year/:from/:to/:filename', function(req, res) {
@@ -199,6 +200,36 @@ app.postData = function(req, res, filePath) {
         });
     });
 	res.json(req.body);
+};
+
+// delete record from JSON file
+app.deleteData = function(req, res, filePath){
+	var id = req.params.id;
+    var i=0;
+
+    if (!req.body) return res.sendStatus(400)
+    fs.readFile(filePath, 'utf8', function (err, data) {
+        if (err){
+            throw err;
+            res.sendStatus(400)
+        }
+        var obj = JSON.parse(data.toString());
+
+        for(item in obj.data) {
+            if(id == obj.data[item].id){
+                obj.data.splice(i, 1);
+                break;
+            }
+            i++;
+        }
+        fs.writeFile (filePath, JSON.stringify(obj, null, 2), function(err) {
+            if (err){
+                throw err;
+                res.sendStatus(400)
+            }
+        });
+    });
+    return res.json(req.body);
 };
 
 /* this isn't used?
