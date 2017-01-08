@@ -104,10 +104,38 @@ app.get('/users', function(req, res) { return app.getData(res, `${path}/${req.qu
 app.patch('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `${path}/${req.params.year}/${req.params.filename}.json`); });
 app.post('/resources/:id/:year/:filename', jsonParser, function(req, res) { return app.postData(req, res, `${path}/${req.params.year}/${req.params.filename}.json`); });
 
+// swap order of data based on index passed in
+app.patch('/resources/swap/:year/:filename/:from/:to', function(req, res) {
+    return app.swapData(req, res, `${path}/${req.params.year}/${req.params.filename}.json`);
+});
+
 // update/create assignments in the roadmap
 app.get('/assignments', function(req, res) { return app.getData(res, `${path}/${req.query.year}/assignments.json`); });
 app.patch('/assignments/:id/:year/:filename', jsonParser, function(req, res) { return app.patchData(req, res, `${path}/${req.params.year}/assignments.json`); });
 app.post('/assignments/:id/:year/:filename', jsonParser, function(req, res){ return app.postData(req, res, `${path}/${req.params.year}/assignments.json`); });
+
+// swap order of data based on index passed in
+app.swapData = function(req, res, filePath){
+    fs.readFile(filePath, 'utf8', function (err, data) {
+        if (err){
+            throw err;
+            res.sendStatus(400)
+        }
+        var swap = JSON.parse(data.toString());
+
+        var tmp = swap.data[req.params.from];
+        swap.data.splice(req.params.from, 1);
+        swap.data.splice(req.params.to, 0, tmp);
+
+        fs.writeFile (filePath, JSON.stringify(swap, null, 2), function(err) {
+            if (err){
+                throw err;
+                res.sendStatus(400)
+            }
+        });
+        return res.json(swap.data);
+    });
+};
 
 // get data from specified JSON file
 app.getData = function(res, filePath) {
