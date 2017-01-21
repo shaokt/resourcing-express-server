@@ -21,7 +21,7 @@
         "long": "Adobe Experience Manager",
         "x": 195,
         "w": 765,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"765\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"885\" data-y=\"0\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"765\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"885\" data-y=\"0\"></div>",
         "background": "E9D"
       },
       "type": "assignments"
@@ -34,7 +34,7 @@
         "long": "CIBC Migration Ph1",
         "x": 0,
         "w": 1050,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"960\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"465\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"510\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"555\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"600\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"645\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"690\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"750\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"465\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"510\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"555\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"600\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"645\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"690\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"750\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"960\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"465\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"525\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"570\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"615\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"PLT\" data-x=\"855\" data-y=\"0\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"960\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"465\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"510\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"555\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"600\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"645\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"690\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"750\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"465\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"510\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"555\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"600\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"645\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"690\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"750\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"960\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"465\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"525\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"570\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"615\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\"data-phase=\"PLT\" data-x=\"855\" data-y=\"0\"></div>",
         "background": "99A"
       },
       "type": "assignments"
@@ -47,7 +47,7 @@
         "long": "CiBC Migration Ph2",
         "x": 915,
         "w": 465,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\"data-phase=\"REQ\" data-x=\"915\" data-y=\"0\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\"data-phase=\"REQ\" data-x=\"915\" data-y=\"0\"></div>",
         "background": "899AFF"
       },
       "type": "assignments"
@@ -73,7 +73,7 @@
         "long": "Mobile Quick Release",
         "x": 270,
         "w": 840,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"570\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"630\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"690\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"720\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"630\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"645\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"705\" data-y=\"45\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"570\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"600\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"630\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"690\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"720\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"630\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"645\" data-y=\"45\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"705\" data-y=\"45\"></div>",
         "background": "AA7272"
       },
       "type": "assignments"
@@ -119,7 +119,7 @@
         "long": "Prepaid / Riptide CRs / CASL",
         "x": 0,
         "w": 915,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"840\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"735\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"UAT\" data-x=\"750\" data-y=\"15\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"840\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"600\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"735\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\"data-phase=\"UAT\" data-x=\"750\" data-y=\"15\"></div>",
         "background": "BCD567"
       },
       "type": "assignments"
@@ -145,7 +145,7 @@
         "long": "Digital Service Requests 2",
         "x": 390,
         "w": 330,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"465\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"525\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"540\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"555\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"525\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"615\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"615\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"645\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"WTY\" data-x=\"660\" data-y=\"15\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"465\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"525\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"540\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"555\" data-y=\"45\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"525\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"615\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"615\" data-y=\"45\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"645\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\"data-phase=\"WTY\" data-x=\"660\" data-y=\"15\"></div>",
         "background": "C1BC88"
       },
       "type": "assignments"
@@ -158,7 +158,7 @@
         "long": "Digital Service Requests 3",
         "x": 660,
         "w": 240,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"810\" data-y=\"0\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"825\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"810\" data-y=\"0\" class=\"\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"825\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></div>",
         "background": "D54"
       },
       "type": "assignments"
@@ -184,7 +184,7 @@
         "long": "Omni Account Open",
         "x": 0,
         "w": 915,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"705\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"0\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"60\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"150\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"195\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"270\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"330\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"390\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"450\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"240\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"300\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"450\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"510\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"555\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"345\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"480\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"540\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"585\" data-y=\"30\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"510\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"570\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"615\" data-y=\"45\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"765\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"780\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"825\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"PRD\" data-x=\"840\" data-y=\"15\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"705\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"0\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"60\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"150\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"195\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"270\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"330\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"390\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"450\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"240\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"300\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"450\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"510\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"555\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"345\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"480\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"540\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"585\" data-y=\"30\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"510\" data-y=\"45\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"570\" data-y=\"45\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"615\" data-y=\"45\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"765\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"780\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"825\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\"data-phase=\"PRD\" data-x=\"840\" data-y=\"15\"></div>",
         "background": "CBACBA"
       },
       "type": "assignments"
@@ -197,7 +197,7 @@
         "long": "Digital Safety Deposit Box",
         "x": 570,
         "w": 810,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"855\" data-y=\"0\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"975\" data-y=\"30\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"960\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"1080\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"1170\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"1305\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"1350\" data-y=\"0\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"600\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"855\" data-y=\"0\" class=\"\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"975\" data-y=\"30\" class=\"\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"960\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"1080\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"1170\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"1305\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"1350\" data-y=\"0\"></div>",
         "background": "CACBBA"
       },
       "type": "assignments"
@@ -223,7 +223,7 @@
         "long": "Secure Key",
         "x": 525,
         "w": 375,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"825\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"825\" data-y=\"30\" class=\"\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"855\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"675\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"705\" data-y=\"15\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"765\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"FRZ\" data-x=\"795\" data-y=\"0\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"825\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"825\" data-y=\"30\" class=\"\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"855\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"675\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"705\" data-y=\"15\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"765\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"FRZ\" data-x=\"795\" data-y=\"0\"></div>",
         "background": "DFFDFF"
       },
       "type": "assignments"
@@ -236,7 +236,7 @@
         "long": "Click To Chat Migration",
         "x": 330,
         "w": 525,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"795\" data-y=\"0\" class=\"\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"795\" data-y=\"0\" class=\"\"></div>",
         "background": "239BBB"
       },
       "type": "assignments"
@@ -249,7 +249,7 @@
         "long": "Online Sales Appointment Booking",
         "x": 0,
         "w": 825,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"600\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"555\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"330\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"405\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"735\" data-y=\"0\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"600\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"555\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"330\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"405\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"735\" data-y=\"0\"></div>",
         "background": "404D00"
       },
       "type": "assignments"
@@ -275,7 +275,7 @@
         "long": "eBanking Content Management : Admin App",
         "x": 0,
         "w": 1005,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"960\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"840\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"690\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"720\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"750\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"810\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"870\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"915\" data-y=\"0\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"960\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"840\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"660\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"690\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"720\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"750\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"810\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"870\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"915\" data-y=\"0\"></div>",
         "background": "FDE123"
       },
       "type": "assignments"
@@ -301,7 +301,7 @@
         "long": "Mortgage Calc + Pre-approval",
         "x": 615,
         "w": 285,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"675\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"810\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"840\" data-y=\"0\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"675\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"810\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"840\" data-y=\"0\"></div>",
         "background": "332392"
       },
       "type": "assignments"
@@ -314,7 +314,7 @@
         "long": "Verify Me",
         "x": 675,
         "w": 240,
-        "phases": "<span data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"675\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"810\" data-y=\"0\"></span><span data-type=\"tile\" data-stamp=\"true\"data-phase=\"DIT\" data-x=\"735\" data-y=\"0\"></span>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"675\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT\" data-x=\"810\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\"data-phase=\"DIT\" data-x=\"735\" data-y=\"0\"></div>",
         "background": "FD3E22"
       },
       "type": "assignments"
