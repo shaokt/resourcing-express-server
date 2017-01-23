@@ -217,7 +217,8 @@
         "long": "Omni Account Open",
         "x": 0,
         "w": 120,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"30\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"45\" data-y=\"15\"></div>",
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"30\" data-y=\"0\"></div>",
         "background": "CBACBA"
       },
       "type": "assignments"
