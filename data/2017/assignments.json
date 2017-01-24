@@ -148,15 +148,16 @@
       "type": "assignments"
     },
     {
-      "id": "201604884392",
+      "id": "201701240959652",
       "attributes": {
         "hidden": false,
-        "short": "EB5",
-        "long": "PCF Parity",
-        "x": 120,
-        "w": 465,
+        "short": "PCFR",
+        "long": "Remediation",
+        "x": 255,
+        "w": 195,
+        "rows": null,
         "phases": "",
-        "background": "899"
+        "background": "6099F0"
       },
       "type": "assignments"
     },
@@ -196,6 +197,20 @@
         "w": null,
         "phases": "",
         "background": "ABC890"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201609270741658",
+      "attributes": {
+        "hidden": false,
+        "short": "BI",
+        "long": "Base Initiatives",
+        "x": 120,
+        "w": 465,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Ember Engines\" data-customphase=\"true\" data-x=\"285\" data-y=\"0\" data-width=\"195\" data-colour=\"blu\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Ken Buck</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"CI Server Upgrade\" data-customphase=\"true\" data-x=\"315\" data-y=\"30\" data-width=\"195\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Kyle &nbsp;Lu</div></div></div>",
+        "background": "FF9121"
       },
       "type": "assignments"
     },
@@ -275,6 +290,19 @@
         "rows": null,
         "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"30\" data-y=\"0\"></div>",
         "background": "CBACBA"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201604884392",
+      "attributes": {
+        "hidden": false,
+        "short": "EB5",
+        "long": "PCF Parity",
+        "x": 120,
+        "w": 465,
+        "phases": "",
+        "background": "899"
       },
       "type": "assignments"
     },
@@ -403,20 +431,6 @@
         "w": null,
         "phases": "",
         "background": "D01888"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201609270741658",
-      "attributes": {
-        "hidden": false,
-        "short": "BI",
-        "long": "Base Initiatives",
-        "x": 255,
-        "w": 330,
-        "rows": null,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Ember Engines\" data-customphase=\"true\" data-x=\"285\" data-y=\"0\" data-width=\"195\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Ken Buck</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"CI Server Upgrade\" data-customphase=\"true\" data-x=\"315\" data-y=\"30\" data-width=\"195\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Kyle &nbsp;Lu</div></div></div>",
-        "background": "FF9121"
       },
       "type": "assignments"
     }
