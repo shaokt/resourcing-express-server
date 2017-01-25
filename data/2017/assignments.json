@@ -208,8 +208,8 @@
         "long": "Base Initiatives",
         "x": 120,
         "w": 465,
-        "rows": null,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Ember Engines\" data-customphase=\"true\" data-x=\"285\" data-y=\"0\" data-width=\"195\" data-colour=\"blu\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Ken Buck</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"CI Server Upgrade\" data-customphase=\"true\" data-x=\"315\" data-y=\"30\" data-width=\"195\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Kyle &nbsp;Lu</div></div></div>",
+        "rows": 1,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Ember Engines\" data-customphase=\"true\" data-x=\"285\" data-y=\"0\" data-width=\"195\" data-colour=\"blu\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Ken Buck</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"CI Server Upgrade\" data-customphase=\"true\" data-x=\"315\" data-y=\"30\" data-width=\"195\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Kyle &nbsp;Lu</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SVN to GIT\" data-customphase=\"true\" data-x=\"195\" data-y=\"60\" data-colour=\"ylw\" data-width=\"195\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"details\"><div>Aleem</div></div></div>",
         "background": "FF9121"
       },
       "type": "assignments"
