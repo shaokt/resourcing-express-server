@@ -203,6 +203,20 @@
       "type": "assignments"
     },
     {
+      "id": "201702060824573",
+      "attributes": {
+        "hidden": false,
+        "short": "D+H PM",
+        "long": "Davis & Henderson Payment Manager",
+        "x": 135,
+        "w": 630,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"135\" data-y=\"0\" data-width=\"60\"><div class=\"desc\">BRD</div><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"BUS\" data-x=\"135\" data-y=\"30\" data-width=\"135\"><div class=\"duration\" data-weeks=\"9\"></div><div class=\"desc\">Estimates</div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"705\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-colour=\"D773B3\"><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"705\" data-y=\"30\" data-width=\"60\" class=\"\"><div class=\"duration\" data-weeks=\"4\"></div></div>",
+        "background": "F3DDDD"
+      },
+      "type": "assignments"
+    },
+    {
       "id": "201609270741658",
       "attributes": {
         "hidden": false,
