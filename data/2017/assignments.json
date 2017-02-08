@@ -123,6 +123,20 @@
       "type": "assignments"
     },
     {
+      "id": "201609270741658",
+      "attributes": {
+        "hidden": false,
+        "short": "BI",
+        "long": "Base Initiatives",
+        "x": 120,
+        "w": 465,
+        "rows": 4,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Ember Engines\" data-customphase=\"true\" data-x=\"270\" data-y=\"0\" data-width=\"195\" data-colour=\"3E97CF\" class=\"\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Ken Buck</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"CI Server Upgrade\" data-customphase=\"true\" data-x=\"315\" data-y=\"90\" data-width=\"195\" class=\"\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Kyle &nbsp;Lu</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SVN to GIT\" data-customphase=\"true\" data-x=\"195\" data-y=\"105\" data-colour=\"AB4189\" data-width=\"195\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"details\"><div>Aleem</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"210\" data-y=\"15\" data-phase=\"Prereq : 2.8+\" data-width=\"105\" data-colour=\"3E97CF\"><div class=\"details\"><div>Upgrade banking app from 1.13 to 2.8+</div><div>Upgrade all kits being consumed to 2.8+</div></div><div class=\"duration\" data-weeks=\"7\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Test CI\" data-customphase=\"true\" data-x=\"315\" data-y=\"30\" data-colour=\"3E97CF\" data-width=\"15\"><div class=\"details\"><div>Content structure</div><div>JCR simulator / stubs</div><div>Identify now to run test cases for content effectively</div><div>Modularize acceptance tests</div></div><div class=\"duration\" data-weeks=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Create engine\" data-customphase=\"true\" data-x=\"315\" data-y=\"15\" data-colour=\"3E97CF\" data-width=\"150\"><div class=\"details\"><div>In-repo engine</div><div>Sym-link banking core</div><div>Identify common services</div><div>Copy/paste to an addon for simplicity of POC</div><div>i.e. Authenticated routes</div></div><div class=\"duration\" data-weeks=\"10\"></div></div>",
+        "background": "FF9121"
+      },
+      "type": "assignments"
+    },
+    {
       "id": "2016048844325",
       "attributes": {
         "hidden": false,
@@ -130,7 +144,8 @@
         "long": "Mobile Quick Release",
         "x": 0,
         "w": 315,
-        "phases": "",
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"120\" data-y=\"0\" data-phase=\"PS\" data-width=\"30\"><div class=\"desc\" data-long=\"\">KT</div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"details\"><div>Product Selector knowledge transfer for Dailies team</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"120\" data-y=\"30\" data-phase=\"MW\" data-width=\"30\"><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\"></div><div class=\"details\"><div>Mobi-web setup for dailies team</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"150\" data-y=\"15\" data-phase=\"Refactor\" data-width=\"30\"><div class=\"desc\" data-long=\"\">PS</div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"details\"><div>Improve load times</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"195\" data-y=\"0\" data-phase=\"Omniture\" data-width=\"30\"><div class=\"details\"><div>New features</div><div>Updates as per Analytics requests</div></div><div class=\"duration\" data-weeks=\"2\"></div></div>",
         "background": "AA7272"
       },
       "type": "assignments"
@@ -213,20 +228,6 @@
         "rows": null,
         "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"135\" data-y=\"0\" data-width=\"60\"><div class=\"desc\">BRD</div><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"BUS\" data-x=\"135\" data-y=\"30\" data-width=\"135\"><div class=\"duration\" data-weeks=\"9\"></div><div class=\"desc\">Estimates</div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"705\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-colour=\"D773B3\"><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"705\" data-y=\"30\" data-width=\"60\" class=\"\"><div class=\"duration\" data-weeks=\"4\"></div></div>",
         "background": "F3DDDD"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201609270741658",
-      "attributes": {
-        "hidden": false,
-        "short": "BI",
-        "long": "Base Initiatives",
-        "x": 120,
-        "w": 465,
-        "rows": 2,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Ember Engines\" data-customphase=\"true\" data-x=\"270\" data-y=\"0\" data-width=\"195\" data-colour=\"3E97CF\" class=\"\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Ken Buck</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"CI Server Upgrade\" data-customphase=\"true\" data-x=\"315\" data-y=\"45\" data-width=\"195\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"desc\"></div><div class=\"details\"><div>Kyle &nbsp;Lu</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SVN to GIT\" data-customphase=\"true\" data-x=\"195\" data-y=\"75\" data-colour=\"AB4189\" data-width=\"195\" class=\"\"><div class=\"duration\" data-weeks=\"13\"></div><div class=\"details\"><div>Aleem</div></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"270\" data-y=\"15\" data-phase=\"Prereq : 2.8\" data-width=\"60\" data-colour=\"3E97CF\"><div class=\"details\"><div>Upgrade banking app from 1.13 to 2.8</div></div><div class=\"duration\" data-weeks=\"4\"></div></div>",
-        "background": "FF9121"
       },
       "type": "assignments"
     },
