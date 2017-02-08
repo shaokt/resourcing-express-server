@@ -62,7 +62,8 @@
         "long": "CiBC Migration Ph2",
         "x": 120,
         "w": 465,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"120\" data-y=\"0\"></div>",
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"120\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"195\" data-y=\"0\" data-phase=\"GIC\" data-width=\"180\"><div class=\"duration\" data-weeks=\"12\"></div></div>",
         "background": "899AFF"
       },
       "type": "assignments"
@@ -75,7 +76,8 @@
         "long": "Integrated Tax Compliance",
         "x": 0,
         "w": 585,
-        "phases": "",
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"510\" data-y=\"0\"></div>",
         "background": "ABBCAC"
       },
       "type": "assignments"
@@ -159,7 +161,7 @@
         "x": 30,
         "w": 480,
         "rows": null,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"30\" data-y=\"0\" data-width=\"60\" data-padding=\"4\" data-startson=\"T\"><div class=\"duration\" data-weeks=\"4\" data-days=\"4\"></div><div class=\"startsOn\" data-startson=\"T\"></div><div class=\"desc\">BRD</div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"90\" data-y=\"15\" data-width=\"45\" data-padding=\"4\" data-startson=\"T\"><div class=\"duration\" data-weeks=\"3\" data-days=\"4\"></div><div class=\"startsOn\" data-startson=\"T\"></div><div class=\"desc\">SRD</div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"150\" data-y=\"30\" data-width=\"105\" data-startson=\"F\" data-padding=\"1\"><div class=\"duration\" data-weeks=\"7\" data-days=\"1\"></div><div class=\"startsOn\" data-startson=\"F\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"255\" data-y=\"0\" data-width=\"135\" data-startson=\"T\" data-padding=\"4\"><div class=\"duration\" data-weeks=\"9\" data-days=\"4\"></div><div class=\"startsOn\" data-startson=\"T\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"435\" data-y=\"0\" data-width=\"0\" data-startson=\"S\"><div class=\"startsOn\" data-startson=\"S\"></div></div>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"30\" data-y=\"0\" data-width=\"60\" data-padding=\"4\" data-startson=\"T\"><div class=\"duration\" data-weeks=\"4\" data-days=\"4\"></div><div class=\"startsOn\" data-startson=\"T\"></div><div class=\"desc\">BRD</div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"90\" data-y=\"15\" data-width=\"45\" data-padding=\"4\" data-startson=\"T\"><div class=\"duration\" data-weeks=\"3\" data-days=\"4\"></div><div class=\"startsOn\" data-startson=\"T\"></div><div class=\"desc\">SRD</div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"150\" data-y=\"30\" data-width=\"105\" data-startson=\"F\" data-padding=\"1\"><div class=\"duration\" data-weeks=\"7\" data-days=\"1\"></div><div class=\"startsOn\" data-startson=\"F\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"DIT\" data-x=\"255\" data-y=\"0\" data-width=\"135\" data-startson=\"T\" data-padding=\"4\"><div class=\"duration\" data-weeks=\"9\" data-days=\"4\"></div><div class=\"startsOn\" data-startson=\"T\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"435\" data-y=\"0\" data-width=\"0\" data-startson=\"S\"><div class=\"startsOn\" data-startson=\"S\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"375\" data-y=\"30\" data-phase=\"SK\" data-colour=\"0094AE\"><div class=\"details\"><div>SecureKey will be ready</div><div>Integration testing</div></div></div>",
         "background": "AA3E22"
       },
       "type": "assignments"
@@ -242,6 +244,20 @@
         "rows": null,
         "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"765\" data-y=\"0\" data-width=\"0\" data-padding=\"1\"><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"765\" data-y=\"30\" data-width=\"60\"><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Dev Start?\" data-customphase=\"true\" data-x=\"315\" data-y=\"0\"></div>",
         "background": "BD2031"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201702081325539",
+      "attributes": {
+        "hidden": false,
+        "short": "CAM 2",
+        "long": "ePresentment Ph2 - eDocuments",
+        "x": 180,
+        "w": 660,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"780\" data-y=\"0\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"780\" data-y=\"30\" data-width=\"60\"><div class=\"duration\" data-weeks=\"4\"></div></div>",
+        "background": "D80980"
       },
       "type": "assignments"
     },
