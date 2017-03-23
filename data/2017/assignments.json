@@ -204,7 +204,7 @@
         "x": 120,
         "w": 330,
         "rows": null,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"135\" data-y=\"0\" data-phase=\"Intake Due\" data-width=\"45\" data-padding=\"2\"><div class=\"details\" data-date-fr=\"Mon Jan 09 2017\" data-date-to=\"Tue Jan 31 2017\"><div>All Options assessed &amp; work effort sized</div><div>Option 1: &nbsp;Back-port from 1.13 to 1.11 (no go)</div><div>Option 2: &nbsp;Uplift from 1.11 to 1.13</div><div>Option 3: &nbsp;Wait for EB5 in 3 years (no go)</div><div>Option 4: &nbsp;Tactical - fix only raised issues</div></div><div class=\"duration\" data-weeks=\"3\" data-days=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Remediation\" data-customphase=\"true\" data-x=\"210\" data-y=\"0\" data-width=\"0\" data-padding=\"1\"><div class=\"details\" data-date-fr=\"Mon Feb 13 2017\" data-date-to=\"Mon Feb 13 2017\"><div>Meet with client in Ottawa</div></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"255\" data-y=\"15\" data-phase=\"Planning\" data-width=\"30\"><div class=\"duration\" data-weeks=\"2\"></div><div class=\"details\" data-date-fr=\"Mon Mar 06 2017\" data-date-to=\"Fri Mar 17 2017\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"270\" data-y=\"45\" data-phase=\"Tactical\" data-width=\"30\" data-colour=\"8CBA19T\"><div class=\"details\" data-date-fr=\"Mon Mar 13 2017\" data-date-to=\"Fri Mar 24 2017\"><div>Address client issues reported only</div><div>Changes to be made on v 1.11</div></div><div class=\"duration\" data-weeks=\"2\"></div></div>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"135\" data-y=\"0\" data-phase=\"Intake Due\" data-width=\"45\" data-padding=\"2\"><div class=\"details\" data-date-fr=\"Mon Jan 09 2017\" data-date-to=\"Tue Jan 31 2017\"><div>All Options assessed &amp; work effort sized</div><div>Option 1: &nbsp;Back-port from 1.13 to 1.11 (no go)</div><div>Option 2: &nbsp;Uplift from 1.11 to 1.13</div><div>Option 3: &nbsp;Wait for EB5 in 3 years (no go)</div><div>Option 4: &nbsp;Tactical - fix only raised issues</div></div><div class=\"duration\" data-weeks=\"3\" data-days=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Remediation\" data-customphase=\"true\" data-x=\"210\" data-y=\"0\" data-width=\"0\" data-padding=\"1\"><div class=\"details\" data-date-fr=\"Mon Feb 13 2017\" data-date-to=\"Mon Feb 13 2017\"><div>Meet with client in Ottawa</div></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"255\" data-y=\"15\" data-phase=\"Planning\" data-width=\"45\"><div class=\"duration\" data-weeks=\"3\"></div><div class=\"details\" data-date-fr=\"Mon Mar 06 2017\" data-date-to=\"Fri Mar 24 2017\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"285\" data-y=\"45\" data-phase=\"Tactical\" data-width=\"45\" data-colour=\"8CBA19T\"><div class=\"details\" data-date-fr=\"Mon Mar 20 2017\" data-date-to=\"Fri Apr 07 2017\"><div>Address client issues reported only</div><div>Changes to be made on v 1.11</div></div><div class=\"duration\" data-weeks=\"3\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Response\" data-customphase=\"true\" data-x=\"315\" data-y=\"0\" data-width=\"15\" data-padding=\"4\"><div class=\"details\" data-date-fr=\"Mon Apr 03 2017\" data-date-to=\"Thu Apr 13 2017\"><div>Draft &amp; execute response with legal</div></div><div class=\"duration\" data-weeks=\"1\" data-days=\"4\"></div></div>",
         "background": "6099F0"
       },
       "type": "assignments"
@@ -281,7 +281,7 @@
       "attributes": {
         "hidden": false,
         "short": "CAM 2",
-        "long": "ePresentment Ph2 - eDocuments",
+        "long": "ePresentment Ph2 - eDocuments & eTax Slips",
         "x": 180,
         "w": 660,
         "rows": null,
@@ -538,6 +538,20 @@
         "w": null,
         "phases": "",
         "background": "D01888"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201703221029931",
+      "attributes": {
+        "hidden": false,
+        "short": "iOS 1",
+        "long": "iOS Team 1",
+        "x": 195,
+        "w": 390,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"285\" data-y=\"0\" data-num=\"5\" data-width=\"30\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Mar 22 2017\" data-date-to=\"Tue Apr 04 2017\"><div>P2P Fulfill money request</div><div>Mobile credit score</div><div>Global search</div></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"255\" data-y=\"15\" data-num=\"4\" data-width=\"30\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Mar 08 2017\" data-date-to=\"Tue Mar 21 2017\"><div>North</div><div>Wallet - add</div></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div>",
+        "background": "FF9909"
       },
       "type": "assignments"
     }
