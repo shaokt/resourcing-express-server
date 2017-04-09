@@ -97,6 +97,23 @@ app.dataX = (obj, value)=>{
 // check if file exists
 app.get('/exists/:year/:filename', (req, res)=>{ res.send(fs.existsSync(`${path}/${req.params.year}/${req.params.filename}.json`)); });
 
+// get listing of managers for current year
+app.get('/manager-listings', function(req, res){
+    const folder = `${path}/${req.query.year}/`;
+    const fs = require('fs');
+    var list = `{"data":[`;
+    fs.readdir(folder, (err, files) => {
+        files.forEach(file => {
+            const ad = file.replace(/.json/, "");
+            if(ad !== 'assignments' && ad !== '.DS_Store'){
+                list += `{ "id":"${ad}", "attributes":{ "ad": "${ad}"}, "type":"manager-listings" },`;
+            }
+        });
+        list = list.replace(/,$/, "") + "]}";
+		return res.json(JSON.parse(list.toString()));
+    });
+});
+
 // loading employees specific to each manager only
 app.get('/users', function(req, res) { return app.getData(res, `${path}/${req.query.year}/${req.query.manager}.json`); });
 
