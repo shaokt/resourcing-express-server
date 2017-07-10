@@ -9,6 +9,8 @@ var jsdom = require('jsdom'),
     window = jsdom.jsdom().defaultView,
     $ = require("jquery")(jsdom.jsdom().defaultView);
 
+app.use(express.static('public'))
+
 app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
     res.header('Content-Type', 'text/plain');
