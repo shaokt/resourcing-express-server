@@ -244,7 +244,9 @@
         "long": "NDAO",
         "x": null,
         "w": null,
+        "rows": null,
         "phases": "",
+        "transit": "null",
         "background": "ABC123"
       },
       "type": "assignments"
@@ -403,7 +405,9 @@
         "long": "Digital Service Requests",
         "x": null,
         "w": null,
+        "rows": null,
         "phases": "",
+        "transit": null,
         "background": "CBA123"
       },
       "type": "assignments"
@@ -416,7 +420,9 @@
         "long": "Digital Service Requests 2",
         "x": null,
         "w": null,
+        "rows": null,
         "phases": "",
+        "transit": null,
         "background": "C1BC88"
       },
       "type": "assignments"
@@ -543,7 +549,9 @@
         "long": "Mobile Parity",
         "x": null,
         "w": null,
+        "rows": null,
         "phases": "",
+        "transit": null,
         "background": "999DCC"
       },
       "type": "assignments"
@@ -612,6 +620,231 @@
         "w": null,
         "phases": "",
         "background": "D01888"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071543868",
+      "attributes": {
+        "hidden": false,
+        "short": "DCOD",
+        "long": "Digital Continuous Optimization & Delivery",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "D1E100"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071543483",
+      "attributes": {
+        "hidden": false,
+        "short": "BAU",
+        "long": "Business As Usual",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "389"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071802110",
+      "attributes": {
+        "hidden": false,
+        "short": "TVLA",
+        "long": "AMEX Travel",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "6099F0\t"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071803623",
+      "attributes": {
+        "hidden": false,
+        "short": "KLK",
+        "long": "Killick",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "FDE123"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071814425",
+      "attributes": {
+        "hidden": false,
+        "short": "AP",
+        "long": "Agency Portal",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "AA7272"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071816187",
+      "attributes": {
+        "hidden": false,
+        "short": "MS",
+        "long": "MoonShot",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "AE3222"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090919289",
+      "attributes": {
+        "hidden": false,
+        "short": "JIPS",
+        "long": "Johnson Insurance Policy Servicing",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "58D"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090923580",
+      "attributes": {
+        "hidden": false,
+        "short": "DEE",
+        "long": "Digital Excellence Enhancements",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "CF92F0"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090925416",
+      "attributes": {
+        "hidden": false,
+        "short": "S+J Ph1",
+        "long": "Sigma+ / Juvo Ph1",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "null",
+        "background": "809F93"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090928186",
+      "attributes": {
+        "hidden": false,
+        "short": "CIA",
+        "long": "CI Appetite",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090931323",
+      "attributes": {
+        "hidden": false,
+        "short": "S+J Ph2",
+        "long": "Sigma+ / Juvo Ph2",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "DFFDFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090935666",
+      "attributes": {
+        "hidden": false,
+        "short": "MOR",
+        "long": "Members Only Redesign",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "ABC123"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090943161",
+      "attributes": {
+        "hidden": false,
+        "short": "CBR",
+        "long": "Cyber",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "CBA123"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090952576",
+      "attributes": {
+        "hidden": false,
+        "short": "OQS",
+        "long": "Online Quote & Sales Platform",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "999DCC"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707100922244",
+      "attributes": {
+        "hidden": false,
+        "short": "SFI",
+        "long": "SalesForce Integration",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "58D"
       },
       "type": "assignments"
     }
