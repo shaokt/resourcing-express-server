@@ -657,14 +657,14 @@
       "id": "201707071802110",
       "attributes": {
         "hidden": false,
-        "short": "TVLA",
+        "short": "AMTVL",
         "long": "AMEX Travel",
         "x": null,
         "w": null,
         "rows": null,
         "phases": null,
         "transit": "",
-        "background": "6099F0\t"
+        "background": "C04F9D"
       },
       "type": "assignments"
     },
@@ -679,7 +679,7 @@
         "rows": null,
         "phases": null,
         "transit": "",
-        "background": "FDE123"
+        "background": "CF92F0"
       },
       "type": "assignments"
     },
@@ -739,7 +739,7 @@
         "rows": null,
         "phases": null,
         "transit": "",
-        "background": "CF92F0"
+        "background": "FDE123"
       },
       "type": "assignments"
     },
@@ -845,6 +845,81 @@
         "phases": null,
         "transit": "",
         "background": "58D"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708110846515",
+      "attributes": {
+        "hidden": false,
+        "short": "H&S",
+        "long": "Help & Support",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "F35"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708110851522",
+      "attributes": {
+        "hidden": false,
+        "short": "PT",
+        "long": "Portfolio Transfer",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "308"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708110900122",
+      "attributes": {
+        "hidden": false,
+        "short": "AMCL",
+        "long": "AMEX Claims",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "FC9FFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708141002237",
+      "attributes": {
+        "hidden": false,
+        "short": "ASTN",
+        "long": "Austen",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "FF9000"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708141306809",
+      "attributes": {
+        "hidden": false,
+        "short": "SAQ",
+        "long": "Sales Agent Quote",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "249328"
       },
       "type": "assignments"
     }
