@@ -705,9 +705,9 @@
         "short": "MS",
         "long": "MoonShot",
         "x": 0,
-        "w": 660,
+        "w": 780,
         "rows": null,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"435\" data-y=\"0\" data-width=\"30\" data-padding=\"3\"><div class=\"details\" data-date-fr=\"Mon Jul 24 2017\" data-date-to=\"Wed Aug 09 2017\"></div><div class=\"duration\" data-weeks=\"2\" data-days=\"3\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"465\" data-y=\"15\" data-startson=\"R\" data-width=\"15\"><div class=\"details\" data-date-fr=\"Thu Aug 10 2017\" data-date-to=\"Wed Aug 16 2017\"></div><div class=\"startsOn\" data-startson=\"R\"></div><div class=\"duration\" data-weeks=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PTE\" data-customphase=\"true\" data-x=\"480\" data-y=\"30\" data-width=\"15\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Aug 16 2017\" data-date-to=\"Tue Aug 22 2017\"></div><div class=\"duration\" data-weeks=\"1\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-x=\"495\" data-y=\"0\" data-startson=\"W\" data-width=\"0\" data-padding=\"1\" data-customphase=\"true\" data-phase=\"July Rel.\" data-colour=\"3E97CFT\"><div class=\"details\" data-date-fr=\"Wed Aug 23 2017\" data-date-to=\"Wed Aug 23 2017\"></div><div class=\"startsOn\" data-startson=\"W\"></div><div class=\"duration\" data-days=\"1\"></div></div>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"435\" data-y=\"0\" data-width=\"30\" data-padding=\"3\"><div class=\"details\" data-date-fr=\"Mon Jul 24 2017\" data-date-to=\"Wed Aug 09 2017\"></div><div class=\"duration\" data-weeks=\"2\" data-days=\"3\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"465\" data-y=\"15\" data-startson=\"R\" data-width=\"15\"><div class=\"details\" data-date-fr=\"Thu Aug 10 2017\" data-date-to=\"Wed Aug 16 2017\"></div><div class=\"startsOn\" data-startson=\"R\"></div><div class=\"duration\" data-weeks=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PTE\" data-customphase=\"true\" data-x=\"480\" data-y=\"30\" data-width=\"15\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Aug 16 2017\" data-date-to=\"Tue Aug 22 2017\"></div><div class=\"duration\" data-weeks=\"1\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-x=\"495\" data-y=\"0\" data-startson=\"W\" data-width=\"0\" data-padding=\"1\" data-customphase=\"true\" data-phase=\"July Rel.\" data-colour=\"3E97CFT\"><div class=\"details\" data-date-fr=\"Wed Aug 23 2017\" data-date-to=\"Wed Aug 23 2017\"></div><div class=\"startsOn\" data-startson=\"W\"></div><div class=\"duration\" data-days=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"570\" data-y=\"0\" data-startson=\"W\" data-width=\"0\" data-padding=\"1\" data-colour=\"FFEC83\"><div class=\"desc\">EN</div><div class=\"details\" data-date-fr=\"Wed Sep 27 2017\" data-date-to=\"Wed Sep 27 2017\"></div><div class=\"startsOn\" data-startson=\"W\"></div><div class=\"duration\" data-days=\"1\"></div></div>",
         "transit": "",
         "background": "AE3222"
       },
@@ -852,8 +852,8 @@
       "id": "201708110846515",
       "attributes": {
         "hidden": false,
-        "short": "H&S",
-        "long": "Help & Support",
+        "short": "W2C",
+        "long": "Web To Case : Help & Support",
         "x": 465,
         "w": 120,
         "rows": null,
@@ -902,7 +902,7 @@
         "x": 465,
         "w": 315,
         "rows": 0,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"495\" data-y=\"30\" data-phase=\"Design\" data-width=\"60\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Aug 21 2017\" data-date-to=\"Fri Sep 15 2017\"></div><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"555\" data-y=\"0\" data-num=\"1\" data-width=\"30\"><div class=\"details\" data-date-fr=\"Mon Sep 18 2017\" data-date-to=\"Fri Sep 29 2017\"></div><div class=\"duration\" data-weeks=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"585\" data-y=\"0\" data-num=\"2\" data-width=\"30\"><div class=\"details\" data-date-fr=\"Mon Oct 02 2017\" data-date-to=\"Fri Oct 13 2017\"></div><div class=\"duration\" data-weeks=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"615\" data-y=\"0\" data-num=\"3\" data-width=\"30\"><div class=\"details\" data-date-fr=\"Mon Oct 16 2017\" data-date-to=\"Fri Oct 27 2017\"></div><div class=\"duration\" data-weeks=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"645\" data-y=\"0\" data-num=\"4\" data-width=\"15\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Oct 30 2017\" data-date-to=\"Fri Nov 03 2017\"></div><div class=\"duration\" data-weeks=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"660\" data-y=\"30\" data-width=\"30\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Nov 06 2017\" data-date-to=\"Fri Nov 17 2017\"></div><div class=\"duration\" data-weeks=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"705\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"R\"><div class=\"details\" data-date-fr=\"Thu Nov 30 2017\" data-date-to=\"Thu Nov 30 2017\"></div><div class=\"duration\" data-days=\"1\"></div><div class=\"startsOn\" data-startson=\"R\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"720\" data-y=\"30\" data-width=\"60\"><div class=\"details\" data-date-fr=\"Mon Dec 04 2017\" data-date-to=\"Fri Dec 29 2017\"></div><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"600\" data-y=\"30\" data-phase=\"CC Launch\" data-width=\"0\" data-colour=\"ABCEEE\"><div class=\"details\" data-date-fr=\"Mon Oct 09 2017\" data-date-to=\"Mon Oct 09 2017\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Estimates\" data-customphase=\"true\" data-x=\"465\" data-y=\"0\" data-width=\"15\"><div class=\"details\" data-date-fr=\"Mon Aug 07 2017\" data-date-to=\"Fri Aug 11 2017\"></div><div class=\"duration\" data-weeks=\"1\"></div><div class=\"startsOn\"></div></div>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"495\" data-y=\"30\" data-phase=\"Design\" data-width=\"60\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Aug 21 2017\" data-date-to=\"Fri Sep 15 2017\"></div><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"555\" data-y=\"0\" data-num=\"1\" data-width=\"30\"><div class=\"details\" data-date-fr=\"Mon Sep 18 2017\" data-date-to=\"Fri Sep 29 2017\"></div><div class=\"duration\" data-weeks=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"585\" data-y=\"0\" data-num=\"2\" data-width=\"30\"><div class=\"details\" data-date-fr=\"Mon Oct 02 2017\" data-date-to=\"Fri Oct 13 2017\"></div><div class=\"duration\" data-weeks=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"615\" data-y=\"0\" data-num=\"3\" data-width=\"30\"><div class=\"details\" data-date-fr=\"Mon Oct 16 2017\" data-date-to=\"Fri Oct 27 2017\"></div><div class=\"duration\" data-weeks=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"645\" data-y=\"0\" data-num=\"4\" data-width=\"15\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Oct 30 2017\" data-date-to=\"Fri Nov 03 2017\"></div><div class=\"duration\" data-weeks=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"660\" data-y=\"30\" data-width=\"30\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Nov 06 2017\" data-date-to=\"Fri Nov 17 2017\"></div><div class=\"duration\" data-weeks=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"705\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"R\"><div class=\"details\" data-date-fr=\"Thu Nov 30 2017\" data-date-to=\"Thu Nov 30 2017\"></div><div class=\"duration\" data-days=\"1\"></div><div class=\"startsOn\" data-startson=\"R\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"720\" data-y=\"30\" data-width=\"60\"><div class=\"details\" data-date-fr=\"Mon Dec 04 2017\" data-date-to=\"Fri Dec 29 2017\"></div><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"600\" data-y=\"30\" data-phase=\"CC Launch\" data-colour=\"ABCEEE\" data-width=\"0\" data-padding=\"1\"><div class=\"details\" data-date-fr=\"Mon Oct 09 2017\" data-date-to=\"Mon Oct 09 2017\"></div><div class=\"duration\" data-days=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Estimates\" data-customphase=\"true\" data-x=\"465\" data-y=\"0\" data-width=\"15\"><div class=\"details\" data-date-fr=\"Mon Aug 07 2017\" data-date-to=\"Fri Aug 11 2017\"></div><div class=\"duration\" data-weeks=\"1\"></div><div class=\"startsOn\"></div></div>",
         "transit": "",
         "background": "FF9000"
       },
@@ -959,12 +959,87 @@
         "hidden": false,
         "short": "JIOB",
         "long": "Johnson Insurance Policy Online Bind",
+        "x": 585,
+        "w": 270,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "D9007E"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2017090711028",
+      "attributes": {
+        "hidden": false,
+        "short": "PC",
+        "long": "Pre Chat",
+        "x": 510,
+        "w": 75,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"570\" data-y=\"0\" data-width=\"0\" data-padding=\"1\"><div class=\"details\" data-date-fr=\"Mon Sep 25 2017\" data-date-to=\"Mon Sep 25 2017\"></div><div class=\"duration\" data-days=\"1\"></div></div>",
+        "transit": "",
+        "background": "DF09D8"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201709071107336",
+      "attributes": {
+        "hidden": false,
+        "short": "NRT",
+        "long": "News Release Template",
+        "x": 525,
+        "w": 105,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WT\" data-customphase=\"true\" data-x=\"525\" data-y=\"0\" data-startson=\"T\" data-width=\"0\" data-padding=\"1\"><div class=\"details\" data-date-fr=\"Tue Sep 05 2017\" data-date-to=\"Tue Sep 05 2017\"><div>Walkthru of initiative by Amanda Stephenson</div><div>10-15 news release items to be copied over to new template</div><div>Need to determine how many types of templates/layouts needed to accommodate news releases</div><div>Need to ensure \"Search\" works for existing/archived articles&nbsp;</div></div><div class=\"startsOn\" data-startson=\"T\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"585\" data-y=\"0\" data-startson=\"R\" data-width=\"0\" data-padding=\"1\" class=\"\"><div class=\"details\" data-date-fr=\"Thu Oct 05 2017\" data-date-to=\"Thu Oct 05 2017\"></div><div class=\"startsOn\" data-startson=\"R\"></div><div class=\"duration\" data-days=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"585\" data-y=\"30\" data-startson=\"R\" data-width=\"30\"><div class=\"details\" data-date-fr=\"Thu Oct 05 2017\" data-date-to=\"Wed Oct 18 2017\"></div><div class=\"startsOn\" data-startson=\"R\"></div><div class=\"duration\" data-weeks=\"2\"></div></div>",
+        "transit": "",
+        "background": "ABC"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201709071114928",
+      "attributes": {
+        "hidden": false,
+        "short": "ACQPOC",
+        "long": "Acquia POC",
+        "x": 390,
+        "w": 330,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Info Gathering\" data-customphase=\"true\" data-x=\"390\" data-y=\"0\" data-width=\"195\"><div class=\"details\" data-date-fr=\"Mon Jul 03 2017\" data-date-to=\"Fri Sep 29 2017\"></div><div class=\"duration\" data-weeks=\"13\"></div></div>",
+        "transit": "",
+        "background": "80D9F8"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201709271001740",
+      "attributes": {
+        "hidden": false,
+        "short": "BRKRD",
+        "long": "RSA Broker Redesign",
         "x": null,
         "w": null,
         "rows": null,
         "phases": null,
         "transit": "",
-        "background": "D9007E"
+        "background": "F9D3DF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201712040944887",
+      "attributes": {
+        "hidden": false,
+        "short": "TDD",
+        "long": "Test Driven Development POC",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "854354"
       },
       "type": "assignments"
     }
