@@ -1,573 +1,6 @@
 {
   "data": [
     {
-      "id": "2016048837980",
-      "attributes": {
-        "hidden": true,
-        "short": "AEM Ph1",
-        "long": "Adobe Experience Manager",
-        "x": null,
-        "w": null,
-        "phases": "",
-        "background": "F9A"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201606151959434",
-      "attributes": {
-        "hidden": true,
-        "short": "AEM Ph2",
-        "long": "Adobe Experience Manager",
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "E9D"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "2016048842653",
-      "attributes": {
-        "hidden": false,
-        "short": "EB3",
-        "long": "CIBC Migration Ph1",
-        "rows": 2,
-        "phases": "",
-        "transit": "81107 / 94851",
-        "background": "99A"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608071658185",
-      "attributes": {
-        "hidden": false,
-        "short": "eCM",
-        "long": "eBanking Content Management : Admin App",
-        "rows": null,
-        "phases": "",
-        "transit": "81107 / 92876",
-        "background": "FDE123"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "2016048843545",
-      "attributes": {
-        "hidden": false,
-        "short": "EB4",
-        "long": "CiBC Migration Ph2",
-        "rows": null,
-        "phases": "",
-        "transit": "99163",
-        "background": "899AFF"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608071515916",
-      "attributes": {
-        "hidden": false,
-        "short": "ITC",
-        "long": "Integrated Tax Compliance",
-        "rows": null,
-        "phases": "",
-        "transit": "94081",
-        "background": "ABBCAC"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201701061345380",
-      "attributes": {
-        "hidden": false,
-        "short": "P2P 1",
-        "long": "Send/Respond to Money Request",
-        "rows": 10,
-        "phases": "",
-        "transit": "95094",
-        "background": "CF92F0"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201701061342358",
-      "attributes": {
-        "hidden": false,
-        "short": "RTCCT",
-        "long": "Real Time Credit Card Txn",
-        "rows": 8,
-        "phases": "",
-        "transit": "95402",
-        "background": "D1E100"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "20160807151538",
-      "attributes": {
-        "hidden": false,
-        "short": "DSDB",
-        "long": "Digital Safety Deposit Box",
-        "rows": 6,
-        "phases": "",
-        "transit": "94851",
-        "background": "CACBBA"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201609270741658",
-      "attributes": {
-        "hidden": false,
-        "short": "BI",
-        "long": "Base Initiatives",
-        "rows": 5,
-        "phases": "",
-        "transit": null,
-        "background": "FF9121"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "2016048844325",
-      "attributes": {
-        "hidden": false,
-        "short": "mQR",
-        "long": "Mobile Quick Release",
-        "rows": 4,
-        "phases": "",
-        "transit": "71387",
-        "background": "AA7272"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201703141525241",
-      "attributes": {
-        "hidden": false,
-        "short": "RPTD2",
-        "long": "Riptide Phase 2 - Account Fees",
-        "x": 0,
-        "w": 195,
-        "rows": 2,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"120\" data-y=\"0\" data-phase=\"Senior Trial Offer\" data-width=\"75\" data-colour=\"FE7B23\"><div class=\"duration\" data-weeks=\"5\"></div><div class=\"details\" data-date-fr=\"Mon Jan 01 2018\" data-date-to=\"Fri Feb 02 2018\"></div></div>",
-        "transit": null,
-        "background": "AFF777"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201703141425321",
-      "attributes": {
-        "hidden": false,
-        "short": "WGCV",
-        "long": "WoodGundy Accounts in CV",
-        "rows": 3,
-        "phases": "",
-        "transit": "98169",
-        "background": "77523D"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201701181316464",
-      "attributes": {
-        "hidden": false,
-        "short": "V.Me",
-        "long": "Verified.Me",
-        "x": 0,
-        "w": 90,
-        "rows": 2,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"30\" data-y=\"0\" data-startson=\"T\" data-width=\"0\" data-padding=\"1\"><div class=\"startsOn\" data-startson=\"T\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div><div class=\"details\" data-date-fr=\"Tue Nov 21 2017\" data-date-to=\"Tue Nov 21 2017\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"30\" data-y=\"15\" data-width=\"60\"><div class=\"duration\" data-weeks=\"4\"></div><div class=\"details\" data-date-fr=\"Mon Nov 20 2017\" data-date-to=\"Fri Dec 15 2017\"></div></div>",
-        "transit": "97794",
-        "background": "AA3E22"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201701240959652",
-      "attributes": {
-        "hidden": false,
-        "short": "PCFR",
-        "long": "Remediation",
-        "rows": 1,
-        "phases": "",
-        "transit": "94674",
-        "background": "6099F0"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "2016048844554",
-      "attributes": {
-        "hidden": true,
-        "short": "mPFM",
-        "long": "Mobile PFM",
-        "x": null,
-        "w": null,
-        "phases": "",
-        "background": "DC9999"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "2016048845398",
-      "attributes": {
-        "hidden": true,
-        "short": "R24",
-        "long": "NDAO",
-        "x": null,
-        "w": null,
-        "rows": null,
-        "phases": "",
-        "transit": "null",
-        "background": "ABC123"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "2016048845352",
-      "attributes": {
-        "hidden": true,
-        "short": "R24.1a",
-        "long": "Riptide / Aventura",
-        "x": null,
-        "w": null,
-        "phases": "",
-        "background": "ABC890"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201702091258310",
-      "attributes": {
-        "hidden": false,
-        "short": "CalR",
-        "long": "Calendar Redesign",
-        "rows": 0,
-        "phases": "",
-        "transit": null,
-        "background": "938700"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201702060824573",
-      "attributes": {
-        "hidden": false,
-        "short": "D+H PM",
-        "long": "Davis & Henderson Payment Manager",
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "C2D0DD"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201704040917175",
-      "attributes": {
-        "hidden": false,
-        "short": "AUA",
-        "long": "Authorized User Access",
-        "rows": null,
-        "phases": "",
-        "transit": "85378",
-        "background": "A1A8DF"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201703221029931",
-      "attributes": {
-        "hidden": false,
-        "short": "iOS 1",
-        "long": "iOS Team 1",
-        "rows": null,
-        "phases": "",
-        "transit": "null",
-        "background": "D9007E"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201702081259433",
-      "attributes": {
-        "hidden": false,
-        "short": "CL",
-        "long": "Cardinal",
-        "x": 0,
-        "w": 60,
-        "rows": null,
-        "phases": "",
-        "background": "BD2031"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201702081325539",
-      "attributes": {
-        "hidden": false,
-        "short": "CAM 2",
-        "long": "ePresentment Ph2 - eDocuments & eTax Slips",
-        "x": 0,
-        "w": 60,
-        "rows": null,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"0\" data-y=\"0\"><div class=\"details\" data-date-fr=\"Mon Nov 06 2017\" data-date-to=\"Mon Nov 06 2017\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"0\" data-y=\"30\" data-width=\"60\"><div class=\"duration\" data-weeks=\"4\"></div><div class=\"details\" data-date-fr=\"Mon Nov 06 2017\" data-date-to=\"Fri Dec 01 2017\"></div></div>",
-        "transit": "",
-        "background": "A01179"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "20170412082258",
-      "attributes": {
-        "hidden": false,
-        "short": "MCI",
-        "long": "Mortgage Critical Ilness",
-        "rows": null,
-        "phases": "",
-        "transit": "",
-        "background": "809F93"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201703151327457",
-      "attributes": {
-        "hidden": false,
-        "short": "MP2",
-        "long": "Migration Ph 2",
-        "x": 0,
-        "w": 105,
-        "rows": null,
-        "phases": "",
-        "background": "389"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "2016048846981",
-      "attributes": {
-        "hidden": true,
-        "short": "R24.1b",
-        "long": "Prepaid / Riptide CRs / CASL",
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "BCD567"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "2016048846779",
-      "attributes": {
-        "hidden": true,
-        "short": "DSR Ph1",
-        "long": "Digital Service Requests",
-        "x": null,
-        "w": null,
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "CBA123"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201606152004667",
-      "attributes": {
-        "hidden": true,
-        "short": "DSR Ph2",
-        "long": "Digital Service Requests 2",
-        "x": null,
-        "w": null,
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "C1BC88"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201610021141955",
-      "attributes": {
-        "hidden": true,
-        "short": "DSR Ph3",
-        "long": "Digital Service Requests 3",
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "D54"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201609251842281",
-      "attributes": {
-        "hidden": true,
-        "short": "MCEE",
-        "long": "Marvel Credit Cards",
-        "x": null,
-        "w": null,
-        "phases": "",
-        "background": "009098"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "2016048847918",
-      "attributes": {
-        "hidden": true,
-        "short": "R25 OAO",
-        "long": "Omni Account Open",
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "CBACBA"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201604884392",
-      "attributes": {
-        "hidden": false,
-        "short": "EB5",
-        "long": "PCF Parity",
-        "phases": "",
-        "background": "899"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608071516802",
-      "attributes": {
-        "hidden": true,
-        "short": "SK",
-        "long": "Secure Key",
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "DFFDFF"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608071606465",
-      "attributes": {
-        "hidden": true,
-        "short": "C2CM",
-        "long": "Click To Chat Migration",
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "239BBB"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608071645461",
-      "attributes": {
-        "hidden": true,
-        "short": "OSAB",
-        "long": "Online Sales Appointment Booking",
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "404D00"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608071655390",
-      "attributes": {
-        "hidden": true,
-        "short": "YP",
-        "long": "Youth Profile",
-        "phases": "",
-        "background": "827"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608080819786",
-      "attributes": {
-        "hidden": true,
-        "short": "mParity",
-        "long": "Mobile Parity",
-        "x": null,
-        "w": null,
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "999DCC"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608171328362",
-      "attributes": {
-        "hidden": true,
-        "short": "PCF WAPP",
-        "long": "Mortgage Calc + Pre-approval",
-        "phases": "",
-        "background": "332392"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201609251829470",
-      "attributes": {
-        "hidden": true,
-        "short": "VMe",
-        "long": "Verify Me",
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "FD3E22"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201608171346689",
-      "attributes": {
-        "hidden": true,
-        "short": "ECCO",
-        "long": "Chat",
-        "rows": null,
-        "phases": "",
-        "transit": null,
-        "background": "398DFF"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201606030923307",
-      "attributes": {
-        "hidden": false,
-        "short": "Dailies",
-        "long": "Dailies",
-        "background": "A0DA11",
-        "phases": ""
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201606030925627",
-      "attributes": {
-        "hidden": true,
-        "short": "DO",
-        "long": "Digital Optimization",
-        "x": null,
-        "w": null,
-        "phases": "",
-        "background": "D01888"
-      },
-      "type": "assignments"
-    },
-    {
       "id": "201707071543868",
       "attributes": {
         "hidden": false,
@@ -600,9 +33,11 @@
     {
       "id": "201707071802110",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "AMTVL",
         "long": "AMEX Travel",
+        "x": null,
+        "w": null,
         "rows": null,
         "phases": "",
         "transit": "",
@@ -631,6 +66,8 @@
         "hidden": false,
         "short": "AP",
         "long": "Agency Portal",
+        "x": 0,
+        "w": 390,
         "rows": null,
         "phases": "",
         "transit": "",
@@ -684,11 +121,13 @@
     {
       "id": "201707090925416",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "S+J Ph1",
         "long": "Sigma+ / Juvo Ph1",
+        "x": 0,
+        "w": 390,
         "rows": null,
-        "phases": "",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Clean up\" data-customphase=\"true\" data-x=\"60\" data-y=\"0\" data-width=\"330\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Jan 29 2018\" data-date-to=\"Fri Jun 29 2018\"><div>ESB env, AS400 not ready for any work yet</div><div>JBOSS back-end needs more testing</div><div>43 micro services need to be merged down to 6-8</div><div>Each service is an instance of a JVM</div></div><div class=\"duration\" data-weeks=\"22\"></div></div>",
         "transit": "null",
         "background": "809F93"
       },
@@ -697,9 +136,11 @@
     {
       "id": "201707090928186",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "CIA",
         "long": "CI Appetite",
+        "x": null,
+        "w": null,
         "rows": null,
         "phases": "",
         "transit": "",
@@ -710,7 +151,7 @@
     {
       "id": "201707090931323",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "S+J Ph2",
         "long": "Sigma+ / Juvo Ph2",
         "x": null,
@@ -725,7 +166,7 @@
     {
       "id": "201707090935666",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "MOR",
         "long": "Members Only Redesign",
         "x": null,
@@ -740,9 +181,11 @@
     {
       "id": "201707090943161",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "CBR",
         "long": "Cyber",
+        "x": null,
+        "w": null,
         "rows": null,
         "phases": "",
         "transit": "",
@@ -753,7 +196,7 @@
     {
       "id": "201707090952576",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "OQS",
         "long": "Online Quote & Sales Platform",
         "x": null,
@@ -762,19 +205,6 @@
         "phases": "",
         "transit": "",
         "background": "999DCC"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201707100922244",
-      "attributes": {
-        "hidden": false,
-        "short": "SFI",
-        "long": "SalesForce Integration",
-        "rows": null,
-        "phases": "",
-        "transit": "",
-        "background": "58D"
       },
       "type": "assignments"
     },
@@ -794,9 +224,11 @@
     {
       "id": "201708110851522",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "PT",
         "long": "Portfolio Transfer",
+        "x": null,
+        "w": null,
         "rows": null,
         "phases": "",
         "transit": "",
@@ -833,9 +265,11 @@
     {
       "id": "201708141306809",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "SAQ",
         "long": "Sales Agent Quote",
+        "x": null,
+        "w": null,
         "rows": null,
         "phases": "",
         "transit": "",
@@ -846,7 +280,7 @@
     {
       "id": "201708161717452",
       "attributes": {
-        "hidden": false,
+        "hidden": true,
         "short": "CCP",
         "long": "Customer Claims Portal",
         "x": null,
@@ -864,10 +298,10 @@
         "hidden": false,
         "short": "EXP",
         "long": "Expedition",
-        "x": null,
-        "w": null,
+        "x": 0,
+        "w": 465,
         "rows": null,
-        "phases": "",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"390\" data-y=\"0\" data-width=\"60\"><div class=\"details\" data-date-fr=\"Mon Jul 02 2018\" data-date-to=\"Fri Jul 27 2018\"></div><div class=\"duration\" data-weeks=\"4\"></div></div>",
         "transit": "",
         "background": "38D0FD"
       },
@@ -880,37 +314,11 @@
         "short": "JIOB",
         "long": "Johnson Insurance Policy Online Bind",
         "x": 0,
-        "w": 75,
+        "w": 795,
         "rows": null,
-        "phases": "",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"315\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"R\"><div class=\"desc\">Auto Bind</div><div class=\"details\" data-date-fr=\"Thu May 31 2018\" data-date-to=\"Thu May 31 2018\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div><div class=\"startsOn\" data-startson=\"R\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"0\" data-y=\"0\" data-phase=\"SPR\" data-num=\"3\" data-width=\"45\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Jan 03 2018\" data-date-to=\"Tue Jan 23 2018\"><div>driver consent</div><div>driver license details</div></div><div class=\"duration\" data-weeks=\"3\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"45\" data-y=\"15\" data-phase=\"SPR\" data-num=\"4\" data-width=\"30\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Jan 24 2018\" data-date-to=\"Tue Feb 06 2018\"><div>AutoPlus Report for driver</div><div>MVR Report for driver</div></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR5\" data-customphase=\"true\" data-x=\"75\" data-y=\"0\" data-width=\"30\" data-startson=\"W\" data-num=\"5\"><div class=\"details\" data-date-fr=\"Wed Feb 07 2018\" data-date-to=\"Tue Feb 20 2018\"><div>finish up vehicle details</div><div>additional / optional benefits</div><div>integration testing</div><div>ESB / Diamond mapping testing</div></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-customphase=\"true\" data-x=\"105\" data-y=\"15\" data-width=\"30\" data-startson=\"W\" data-num=\"6\"><div class=\"details\" data-date-fr=\"Wed Feb 21 2018\" data-date-to=\"Tue Mar 06 2018\"></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-customphase=\"true\" data-x=\"135\" data-y=\"0\" data-num=\"7\" data-width=\"30\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Mar 07 2018\" data-date-to=\"Tue Mar 20 2018\"></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div>",
         "transit": "",
         "background": "D9007E"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "2017090711028",
-      "attributes": {
-        "hidden": false,
-        "short": "PC",
-        "long": "Pre Chat",
-        "rows": null,
-        "phases": "",
-        "transit": "",
-        "background": "DF09D8"
-      },
-      "type": "assignments"
-    },
-    {
-      "id": "201709071107336",
-      "attributes": {
-        "hidden": false,
-        "short": "NRT",
-        "long": "News Release Template",
-        "rows": null,
-        "phases": "",
-        "transit": "",
-        "background": "ABC"
       },
       "type": "assignments"
     },
@@ -948,12 +356,57 @@
         "hidden": false,
         "short": "TDD",
         "long": "Test Driven Development POC",
-        "x": null,
-        "w": null,
+        "x": 0,
+        "w": 195,
         "rows": null,
-        "phases": "",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"R&amp;D\" data-customphase=\"true\" data-x=\"0\" data-y=\"0\" data-width=\"195\"><div class=\"details\" data-date-fr=\"Mon Jan 01 2018\" data-date-to=\"Fri Mar 30 2018\"><div>set-up &amp; POCs</div><div>frameworks (TestBed, Karma)</div><div>integration with existing Ang4 app (Travel)</div></div><div class=\"duration\" data-weeks=\"13\"></div></div>",
         "transit": "",
         "background": "854354"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201801231015428",
+      "attributes": {
+        "hidden": false,
+        "short": "JIEQ",
+        "long": "Johnson Insurance eQuote",
+        "x": 0,
+        "w": 390,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "FDE222"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201801311515992",
+      "attributes": {
+        "hidden": false,
+        "short": "TruceTO",
+        "long": "Cyclist Brochure Site",
+        "x": 45,
+        "w": 120,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"150\" data-y=\"0\" data-startson=\"N\" data-width=\"0\" data-padding=\"1\"><div class=\"details\" data-date-fr=\"Sun Mar 11 2018\" data-date-to=\"Sun Mar 11 2018\"></div><div class=\"startsOn\" data-startson=\"N\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"60\" data-y=\"0\" data-phase=\"Design\" data-width=\"15\"><div class=\"details\" data-date-fr=\"Mon Jan 29 2018\" data-date-to=\"Fri Feb 02 2018\"></div><div class=\"duration\" data-weeks=\"1\"></div></div>",
+        "transit": "",
+        "background": "239FFD"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201802041010179",
+      "attributes": {
+        "hidden": false,
+        "short": "SLVRTN",
+        "long": "Silverton",
+        "x": 45,
+        "w": 675,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"645\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"R\"><div class=\"details\" data-date-fr=\"Thu Nov 01 2018\" data-date-to=\"Thu Nov 01 2018\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div><div class=\"startsOn\" data-startson=\"R\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"HLE\" data-customphase=\"true\" data-x=\"60\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"F\"><div class=\"details\" data-date-fr=\"Fri Feb 02 2018\" data-date-to=\"Fri Feb 02 2018\"><div>Assumptions / Risks</div><div>Resources needed to launch by Nov 1st</div></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div><div class=\"startsOn\" data-startson=\"F\"></div></div>",
+        "transit": "",
+        "background": "F89DF8"
       },
       "type": "assignments"
     }
