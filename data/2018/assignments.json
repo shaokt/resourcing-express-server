@@ -67,9 +67,9 @@
         "short": "AP",
         "long": "Agency Portal",
         "x": 0,
-        "w": 390,
+        "w": 585,
         "rows": null,
-        "phases": "",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Pause\" data-customphase=\"true\" data-x=\"510\" data-y=\"0\" data-width=\"75\" data-colour=\"F86D72\"><div class=\"details\" data-date-fr=\"Mon Aug 27 2018\" data-date-to=\"Fri Sep 28 2018\"></div><div class=\"duration\" data-weeks=\"5\"></div></div>",
         "transit": "",
         "background": "AA7272"
       },
@@ -82,9 +82,9 @@
         "short": "MS",
         "long": "MoonShot",
         "x": 0,
-        "w": 795,
+        "w": 720,
         "rows": null,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Flood Zone\" data-customphase=\"true\" data-x=\"360\" data-y=\"30\" data-colour=\"ABCEEE\" data-width=\"60\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Jun 18 2018\" data-date-to=\"Fri Jul 13 2018\"></div><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"390\" data-y=\"45\" data-colour=\"ADD2E2\" data-startson=\"T\" data-width=\"15\"><div class=\"details\" data-date-fr=\"Tue Jul 03 2018\" data-date-to=\"Mon Jul 09 2018\"></div><div class=\"startsOn\" data-startson=\"T\"></div><div class=\"duration\" data-weeks=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"345\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"T\" data-colour=\"B9DC82\"><div class=\"desc\" data-long=\"Final Moonshot Release\">FMR</div><div class=\"details\" data-date-fr=\"Tue Jun 12 2018\" data-date-to=\"Tue Jun 12 2018\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div><div class=\"startsOn\" data-startson=\"T\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Pause\" data-customphase=\"true\" data-x=\"450\" data-y=\"0\" data-width=\"45\" data-colour=\"FFE32F\"><div class=\"details\" data-date-fr=\"Mon Jul 30 2018\" data-date-to=\"Fri Aug 17 2018\"></div><div class=\"duration\" data-weeks=\"3\"></div><div class=\"startsOn\"></div></div>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Flood Zone\" data-customphase=\"true\" data-x=\"360\" data-y=\"30\" data-colour=\"ABCEEE\" data-width=\"60\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Jun 18 2018\" data-date-to=\"Fri Jul 13 2018\"></div><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SIT\" data-x=\"390\" data-y=\"45\" data-colour=\"ADD2E2\" data-startson=\"T\" data-width=\"15\"><div class=\"details\" data-date-fr=\"Tue Jul 03 2018\" data-date-to=\"Mon Jul 09 2018\"></div><div class=\"startsOn\" data-startson=\"T\"></div><div class=\"duration\" data-weeks=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"345\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"T\" data-colour=\"B9DC82\"><div class=\"desc\" data-long=\"Final Moonshot Release\">FMR</div><div class=\"details\" data-date-fr=\"Tue Jun 12 2018\" data-date-to=\"Tue Jun 12 2018\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div><div class=\"startsOn\" data-startson=\"T\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Project Pause\" data-customphase=\"true\" data-x=\"450\" data-y=\"0\" data-width=\"105\" data-colour=\"FFE32F\"><div class=\"details\" data-date-fr=\"Mon Jul 30 2018\" data-date-to=\"Fri Sep 14 2018\"></div><div class=\"duration\" data-weeks=\"7\"></div><div class=\"startsOn\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Earthquake Zone\" data-customphase=\"true\" data-x=\"525\" data-y=\"15\" data-width=\"195\" data-colour=\"8CBA19T\"><div class=\"details\" data-date-fr=\"Mon Sep 03 2018\" data-date-to=\"Fri Nov 30 2018\"></div><div class=\"duration\" data-weeks=\"13\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"REQ\" data-x=\"525\" data-y=\"30\" data-width=\"30\" data-colour=\"8CBA19T\"><div class=\"details\" data-date-fr=\"Mon Sep 03 2018\" data-date-to=\"Fri Sep 14 2018\"></div><div class=\"duration\" data-weeks=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"555\" data-y=\"30\" data-phase=\"Dev\" data-width=\"60\" data-padding=\"1\" data-colour=\"8CBA19T\"><div class=\"details\" data-date-fr=\"Mon Sep 17 2018\" data-date-to=\"Mon Oct 15 2018\"></div><div class=\"duration\" data-weeks=\"4\" data-days=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"UAT\" data-x=\"660\" data-y=\"45\" data-startson=\"R\" data-width=\"15\" data-colour=\"8CBA19T\"><div class=\"details\" data-date-fr=\"Thu Nov 08 2018\" data-date-to=\"Wed Nov 14 2018\"></div><div class=\"startsOn\" data-startson=\"R\"></div><div class=\"duration\" data-weeks=\"1\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"QA E2E\" data-customphase=\"true\" data-x=\"615\" data-y=\"30\" data-startson=\"F\" data-width=\"30\" data-padding=\"2\" data-colour=\"8CBA19T\"><div class=\"details\" data-date-fr=\"Fri Oct 19 2018\" data-date-to=\"Mon Nov 05 2018\"></div><div class=\"startsOn\" data-startson=\"F\"></div><div class=\"duration\" data-weeks=\"2\" data-days=\"2\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"705\" data-y=\"30\" data-colour=\"8CBA19T\" data-padding=\"1\" data-width=\"0\"><div class=\"details\" data-date-fr=\"Mon Nov 26 2018\" data-date-to=\"Mon Nov 26 2018\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div>",
         "transit": "",
         "background": "AE3222"
       },
@@ -301,9 +301,9 @@
         "short": "EXP",
         "long": "Expedition",
         "x": 0,
-        "w": 465,
+        "w": 615,
         "rows": null,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"390\" data-y=\"45\" data-width=\"60\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Jul 02 2018\" data-date-to=\"Fri Jul 27 2018\"></div><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"360\" data-y=\"0\" data-startson=\"S\" data-width=\"0\" data-padding=\"1\" data-colour=\"F677A4\"><div class=\"desc\">GTRX</div><div class=\"details\" data-date-fr=\"Sat Jun 16 2018\" data-date-to=\"Sat Jun 16 2018\"></div><div class=\"startsOn\" data-startson=\"S\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"375\" data-y=\"30\" data-width=\"0\" data-padding=\"1\"><div class=\"details\" data-date-fr=\"Mon Jun 25 2018\" data-date-to=\"Mon Jun 25 2018\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"390\" data-y=\"45\" data-width=\"60\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Jul 02 2018\" data-date-to=\"Fri Jul 27 2018\"></div><div class=\"duration\" data-weeks=\"4\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"360\" data-y=\"0\" data-startson=\"S\" data-width=\"0\" data-padding=\"1\" data-colour=\"F677A4\"><div class=\"desc\">GTRX</div><div class=\"details\" data-date-fr=\"Sat Jun 16 2018\" data-date-to=\"Sat Jun 16 2018\"></div><div class=\"startsOn\" data-startson=\"S\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"375\" data-y=\"30\" data-width=\"0\" data-padding=\"1\"><div class=\"details\" data-date-fr=\"Mon Jun 25 2018\" data-date-to=\"Mon Jun 25 2018\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"600\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"T\" data-colour=\"E69A68\"><div class=\"desc\">VTC</div><div class=\"details\" data-date-fr=\"Tue Oct 09 2018\" data-date-to=\"Tue Oct 09 2018\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div><div class=\"startsOn\" data-startson=\"T\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Pause\" data-customphase=\"true\" data-x=\"600\" data-y=\"30\" data-colour=\"E63E71\"><div class=\"details\" data-date-fr=\"Mon Oct 08 2018\" data-date-to=\"Mon Oct 08 2018\"><div>pause until 2019</div><div>last thing to go in is VTC</div></div></div>",
         "transit": "",
         "background": "38D0FD"
       },
@@ -316,9 +316,9 @@
         "short": "JIOB",
         "long": "Johnson Insurance Policy Online Bind",
         "x": 0,
-        "w": 795,
+        "w": 1050,
         "rows": null,
-        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"315\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"R\"><div class=\"desc\">Auto Bind</div><div class=\"details\" data-date-fr=\"Thu May 31 2018\" data-date-to=\"Thu May 31 2018\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div><div class=\"startsOn\" data-startson=\"R\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-x=\"0\" data-y=\"0\" data-phase=\"SPR\" data-num=\"3\" data-width=\"45\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Jan 03 2018\" data-date-to=\"Tue Jan 23 2018\"><div>driver consent</div><div>driver license details</div></div><div class=\"duration\" data-weeks=\"3\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-x=\"45\" data-y=\"15\" data-phase=\"SPR\" data-num=\"4\" data-width=\"30\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Jan 24 2018\" data-date-to=\"Tue Feb 06 2018\"><div>AutoPlus Report for driver</div><div>MVR Report for driver</div></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"75\" data-y=\"0\" data-width=\"30\" data-startson=\"W\" data-num=\"5\"><div class=\"details\" data-date-fr=\"Wed Feb 07 2018\" data-date-to=\"Tue Feb 20 2018\"><div>finish up vehicle details</div><div>additional / optional benefits</div><div>integration testing</div><div>ESB / Diamond mapping testing</div></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"105\" data-y=\"15\" data-width=\"30\" data-startson=\"W\" data-num=\"6\"><div class=\"details\" data-date-fr=\"Wed Feb 21 2018\" data-date-to=\"Tue Mar 06 2018\"><div>merge JIeQuote prod into OLB dev branch</div><div>get Home team ready to use same branch</div><div>customize policy</div></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-customphase=\"true\" data-x=\"135\" data-y=\"0\" data-num=\"7\" data-width=\"30\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Mar 07 2018\" data-date-to=\"Tue Mar 20 2018\"></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"165\" data-y=\"15\" data-num=\"8\" data-width=\"30\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Mar 21 2018\" data-date-to=\"Tue Apr 03 2018\"></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div>",
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"315\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"R\"><div class=\"desc\">Auto Bind</div><div class=\"details\" data-date-fr=\"Thu May 31 2018\" data-date-to=\"Thu May 31 2018\"></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div><div class=\"startsOn\" data-startson=\"R\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-x=\"0\" data-y=\"0\" data-phase=\"SPR\" data-num=\"3\" data-width=\"45\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Jan 03 2018\" data-date-to=\"Tue Jan 23 2018\"><div>driver consent</div><div>driver license details</div></div><div class=\"duration\" data-weeks=\"3\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-x=\"45\" data-y=\"15\" data-phase=\"SPR\" data-num=\"4\" data-width=\"30\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Jan 24 2018\" data-date-to=\"Tue Feb 06 2018\"><div>AutoPlus Report for driver</div><div>MVR Report for driver</div></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"75\" data-y=\"0\" data-width=\"30\" data-startson=\"W\" data-num=\"5\"><div class=\"details\" data-date-fr=\"Wed Feb 07 2018\" data-date-to=\"Tue Feb 20 2018\"><div>finish up vehicle details</div><div>additional / optional benefits</div><div>integration testing</div><div>ESB / Diamond mapping testing</div></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"105\" data-y=\"15\" data-width=\"30\" data-startson=\"W\" data-num=\"6\"><div class=\"details\" data-date-fr=\"Wed Feb 21 2018\" data-date-to=\"Tue Mar 06 2018\"><div>merge JIeQuote prod into OLB dev branch</div><div>get Home team ready to use same branch</div><div>customize policy</div></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-customphase=\"true\" data-x=\"135\" data-y=\"0\" data-num=\"7\" data-width=\"30\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Mar 07 2018\" data-date-to=\"Tue Mar 20 2018\"></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"SPR\" data-x=\"165\" data-y=\"15\" data-num=\"8\" data-width=\"30\" data-startson=\"W\"><div class=\"details\" data-date-fr=\"Wed Mar 21 2018\" data-date-to=\"Tue Apr 03 2018\"></div><div class=\"duration\" data-weeks=\"2\"></div><div class=\"startsOn\" data-startson=\"W\"></div></div><div data-type=\"tile\" data-stamp=\"true\"data-phase=\"PRD\" data-x=\"990\" data-y=\"0\"></div>",
         "transit": "",
         "background": "D9007E"
       },
@@ -418,10 +418,10 @@
         "hidden": false,
         "short": "GWCP",
         "long": "GuideWire Claims Portal",
-        "x": null,
-        "w": null,
+        "x": 555,
+        "w": 345,
         "rows": null,
-        "phases": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-customphase=\"true\" data-x=\"555\" data-y=\"0\" data-phase=\"Training\" data-width=\"60\"><div class=\"details\" data-date-fr=\"Mon Sep 17 2018\" data-date-to=\"Fri Oct 12 2018\"><div>ramp up for Ingrid &amp; Nancy</div></div><div class=\"duration\" data-weeks=\"4\"></div></div>",
         "transit": "",
         "background": "89DDD0"
       },
@@ -449,11 +449,26 @@
         "short": "PCI",
         "long": "CC Compliance",
         "x": 0,
-        "w": 660,
+        "w": 705,
         "rows": null,
-        "phases": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"615\" data-y=\"0\" data-width=\"0\" data-padding=\"1\" data-startson=\"R\" data-colour=\"E63E71\" class=\"\"><div class=\"details\" data-date-fr=\"Thu Oct 18 2018\" data-date-to=\"Thu Oct 18 2018\"><div>ESB &amp; PMB page</div><div>Oct 4th or 18th</div></div><div class=\"duration\" data-days=\"1\" data-weeks=\"0\"></div><div class=\"startsOn\" data-startson=\"R\"></div></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"WTY\" data-x=\"630\" data-y=\"15\" data-width=\"75\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Oct 22 2018\" data-date-to=\"Fri Nov 23 2018\"></div><div class=\"duration\" data-weeks=\"5\"></div></div>",
         "transit": "",
         "background": "345678"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201809121019278",
+      "attributes": {
+        "hidden": false,
+        "short": "DXTR",
+        "long": "Dexter",
+        "x": 585,
+        "w": 210,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PLT Estimates\" data-customphase=\"true\" data-x=\"585\" data-y=\"0\" data-width=\"15\"><div class=\"details\" data-date-fr=\"Mon Oct 01 2018\" data-date-to=\"Fri Oct 05 2018\"></div><div class=\"duration\" data-weeks=\"1\"></div></div>",
+        "transit": "",
+        "background": "FFB029"
       },
       "type": "assignments"
     }

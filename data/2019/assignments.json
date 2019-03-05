@@ -1,0 +1,463 @@
+{
+  "data": [
+    {
+      "id": "201707071543868",
+      "attributes": {
+        "hidden": false,
+        "short": "DCOD",
+        "long": "Digital Continuous Optimization & Delivery",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "D1E100"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071543483",
+      "attributes": {
+        "hidden": false,
+        "short": "BAU",
+        "long": "Business As Usual",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "389"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071802110",
+      "attributes": {
+        "hidden": true,
+        "short": "AMTVL",
+        "long": "AMEX Travel",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "C04F9D"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071803623",
+      "attributes": {
+        "hidden": false,
+        "short": "KLK",
+        "long": "Killick",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "CF92F0"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071814425",
+      "attributes": {
+        "hidden": false,
+        "short": "AP",
+        "long": "Agency Portal",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "AA7272"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707071816187",
+      "attributes": {
+        "hidden": false,
+        "short": "MS",
+        "long": "MoonShot",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "AE3222"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090919289",
+      "attributes": {
+        "hidden": false,
+        "short": "JIPS",
+        "long": "Johnson Insurance Policy Servicing",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "58D"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090923580",
+      "attributes": {
+        "hidden": false,
+        "short": "DEE",
+        "long": "Digital Excellence Enhancements",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "FDE123"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090925416",
+      "attributes": {
+        "hidden": true,
+        "short": "S+J Ph1",
+        "long": "Sigma+ / Juvo Ph1",
+        "rows": null,
+        "phases": "",
+        "transit": "null",
+        "background": "809F93"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090928186",
+      "attributes": {
+        "hidden": true,
+        "short": "CIA",
+        "long": "CI Appetite",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "899AFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090931323",
+      "attributes": {
+        "hidden": true,
+        "short": "S+J Ph2",
+        "long": "Sigma+ / Juvo Ph2",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "DFFDFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090935666",
+      "attributes": {
+        "hidden": true,
+        "short": "MOR",
+        "long": "Members Only Redesign",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "ABC123"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090943161",
+      "attributes": {
+        "hidden": true,
+        "short": "CBR",
+        "long": "Cyber",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "CBA123"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201707090952576",
+      "attributes": {
+        "hidden": true,
+        "short": "OQS",
+        "long": "Online Quote & Sales Platform",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "999DCC"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708110846515",
+      "attributes": {
+        "hidden": false,
+        "short": "W2C",
+        "long": "Web To Case : Help & Support",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "F35"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708110851522",
+      "attributes": {
+        "hidden": true,
+        "short": "PT",
+        "long": "Portfolio Transfer",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "308"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708110900122",
+      "attributes": {
+        "hidden": false,
+        "short": "AMCL",
+        "long": "AMEX Claims",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "FC9FFF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708141002237",
+      "attributes": {
+        "hidden": false,
+        "short": "ASTN",
+        "long": "Austen",
+        "rows": 0,
+        "phases": "",
+        "transit": "",
+        "background": "FF9000"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708141306809",
+      "attributes": {
+        "hidden": true,
+        "short": "SAQ",
+        "long": "Sales Agent Quote",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "249328"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708161717452",
+      "attributes": {
+        "hidden": true,
+        "short": "CCP",
+        "long": "Customer Claims Portal",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "996FC1"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708250800114",
+      "attributes": {
+        "hidden": false,
+        "short": "EXP",
+        "long": "Expedition",
+        "x": 0,
+        "w": 375,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Pause\" data-customphase=\"true\" data-x=\"0\" data-y=\"30\" data-width=\"180\"><div class=\"details\" data-date-fr=\"Mon Jan 07 2019\" data-date-to=\"Fri Mar 29 2019\"></div><div class=\"duration\" data-weeks=\"12\"></div></div>",
+        "transit": "",
+        "background": "38D0FD"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201708250804454",
+      "attributes": {
+        "hidden": false,
+        "short": "JIOB",
+        "long": "Johnson Insurance Policy Online Bind",
+        "x": 0,
+        "w": 465,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"PRD\" data-x=\"255\" data-y=\"0\" class=\"\"></div><div data-type=\"tile\" data-stamp=\"true\" data-phase=\"Defer until 2020\" data-customphase=\"true\" data-x=\"375\" data-y=\"0\" data-colour=\"FFEC83\" class=\"\"><div class=\"details\" data-date-fr=\"Mon Jul 01 2019\" data-date-to=\"Mon Jul 01 2019\"></div></div>",
+        "transit": "",
+        "background": "D9007E"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201709071114928",
+      "attributes": {
+        "hidden": false,
+        "short": "ACQPOC",
+        "long": "Acquia POC",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "80D9F8"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201709271001740",
+      "attributes": {
+        "hidden": false,
+        "short": "BRKRD",
+        "long": "RSA Broker Redesign",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "F9D3DF"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201712040944887",
+      "attributes": {
+        "hidden": false,
+        "short": "TDD",
+        "long": "Test Driven Development POC",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "854354"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201801231015428",
+      "attributes": {
+        "hidden": false,
+        "short": "JIEQ",
+        "long": "Johnson Insurance eQuote",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "FDE222"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201801311515992",
+      "attributes": {
+        "hidden": false,
+        "short": "TruceTO",
+        "long": "Cyclist Brochure Site",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "239FFD"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201802041010179",
+      "attributes": {
+        "hidden": false,
+        "short": "SLVRTN",
+        "long": "Silverton",
+        "x": 0,
+        "w": 450,
+        "rows": null,
+        "phases": "<div data-type=\"tile\" data-stamp=\"true\" data-phase=\"AODA Enhancments\" data-customphase=\"true\" data-x=\"315\" data-y=\"0\" data-width=\"90\"><div class=\"details\" data-date-fr=\"Mon Jun 03 2019\" data-date-to=\"Fri Jul 12 2019\"><div>update radio buttons</div><div>update calendar</div></div><div class=\"duration\" data-weeks=\"6\"></div></div>",
+        "transit": "",
+        "background": "F89DF8"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2018030710595",
+      "attributes": {
+        "hidden": false,
+        "short": "GWCP",
+        "long": "GuideWire Claims Portal",
+        "x": 0,
+        "w": 105,
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "89DDD0"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "2018050208214",
+      "attributes": {
+        "hidden": false,
+        "short": "MRT",
+        "long": "Merit APP",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "6A2368"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201807261011379",
+      "attributes": {
+        "hidden": false,
+        "short": "PCI",
+        "long": "CC Compliance",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "345678"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201809121019278",
+      "attributes": {
+        "hidden": false,
+        "short": "DXTR",
+        "long": "Dexter",
+        "rows": null,
+        "phases": "",
+        "transit": "",
+        "background": "FFB029"
+      },
+      "type": "assignments"
+    },
+    {
+      "id": "201901231549531",
+      "attributes": {
+        "hidden": false,
+        "short": "ProdSup\\'t",
+        "long": "Prod Support",
+        "x": null,
+        "w": null,
+        "rows": null,
+        "phases": null,
+        "transit": "",
+        "background": "D09F8F"
+      },
+      "type": "assignments"
+    }
+  ]
+}
